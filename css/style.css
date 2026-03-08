@@ -896,3 +896,78 @@ body {
     background: var(--border);
     border-radius: 2px;
 }
+
+/* =====================================================
+   RESPONSIVE (Mobile & Tablet)
+   ===================================================== */
+@media (max-width: 992px) {
+
+    /* 2カラムレイアウトを解除して縦積みに */
+    #mainSection {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    #mapPanel {
+        height: 50vh;
+        min-height: 300px;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+
+    #rankPanel {
+        height: 50vh;
+        min-height: 400px;
+    }
+
+    #middleSection {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .mid-card {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        height: 300px;
+    }
+
+    .mid-card:last-child {
+        border-bottom: none;
+    }
+
+    .country-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 12px 16px;
+        gap: 12px;
+    }
+
+    .top3-bar {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        /* Scrollbar space */
+    }
+
+    .top3-words {
+        gap: 12px;
+    }
+
+    .header-clock {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+        font-size: 11px;
+    }
+
+    .country-cards {
+        grid-template-columns: 1fr;
+    }
+}
