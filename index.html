@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Trend Pulse — 世界ホットワードダッシュボード</title>
+    <meta name="description" content="各国で話題の言葉を言及数とランキングで可視化するグローバルトレンドダッシュボード">
+
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== LOADING ========== -->
+    <div id="loadingOverlay">
+        <div class="loading-inner">
+            <div class="loading-icon">📡</div>
+            <div class="loading-text">世界のトレンドを収集中...</div>
+            <div class="loading-sources" id="loadingSources"></div>
+            <div class="loading-bar">
+                <div class="loading-fill" id="loadingFill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== HEADER ========== -->
+    <header id="header">
+        <div class="header-left">
+            <div class="brand">
+                <span class="brand-pulse"></span>
+                <span class="brand-name">World Trend Pulse</span>
+            </div>
+            <div class="header-meta">
+                <span id="updateTime">更新中...</span>
+                <span class="dot-sep">·</span>
+                <span id="totalWords">-- ワード収集済み</span>
+            </div>
+        </div>
+
+        <!-- TOP3 グローバルホットワード -->
+        <div class="top3-bar">
+            <div class="top3-label">🔥 GLOBAL TOP</div>
+            <div class="top3-words" id="top3Words">
+                <div class="top3-item" id="top3-1">
+                    <span class="top3-rank">#1</span>
+                    <span class="top3-word">--</span>
+                    <span class="top3-count">--</span>
+                </div>
+                <div class="top3-item" id="top3-2">
+                    <span class="top3-rank">#2</span>
+                    <span class="top3-word">--</span>
+                    <span class="top3-count">--</span>
+                </div>
+                <div class="top3-item" id="top3-3">
+                    <span class="top3-rank">#3</span>
+                    <span class="top3-word">--</span>
+                    <span class="top3-count">--</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-clock" id="headerClock">--:--:--</div>
+    </header>
+
+    <!-- ========== MAIN: MAP + RANKING ========== -->
+    <section id="mainSection">
+
+        <!-- LEFT: World Map -->
+        <div id="mapPanel">
+            <div class="panel-title">
+                🌍 世界トレンドマップ
+                <span class="panel-hint">国をクリックで詳細表示</span>
+            </div>
+            <div id="map"></div>
+            <div id="mapTooltip" class="map-tooltip hidden">
+                <div id="ttFlag" class="tt-flag"></div>
+                <div id="ttName" class="tt-name"></div>
+                <div id="ttTop1" class="tt-top1"></div>
+                <div id="ttCount" class="tt-count"></div>
+                <div id="ttWords" class="tt-words"></div>
+            </div>
+        </div>
+
+        <!-- RIGHT: Country Ranking Board -->
+        <div id="rankPanel">
+            <div class="panel-title" id="rankPanelTitle">
+                📊 国別ランキング
+                <span class="panel-hint" id="rankCountryName">← 地図から国を選択</span>
+            </div>
+
+            <div id="rankPlaceholder" class="rank-placeholder">
+                <div class="ph-icon">🗺️</div>
+                <div class="ph-text">地図上の国をクリックして<br>トレンドランキングを表示</div>
+            </div>
+
+            <div id="rankContent" class="rank-hidden">
+                <!-- Category Tabs -->
+                <div class="cat-tabs" id="catTabs">
+                    <button class="cat-btn active" data-cat="all">すべて</button>
+                    <button class="cat-btn" data-cat="geo">地政学🌐</button>
+                    <button class="cat-btn" data-cat="econ">経済💰</button>
+                    <button class="cat-btn" data-cat="tech">技術💻</button>
+                    <button class="cat-btn" data-cat="social">社会👥</button>
+                </div>
+
+                <!-- Ranking List -->
+                <div id="rankList" class="rank-list"></div>
+
+                <!-- Mini Bubble Chart -->
+                <div class="mini-bubble-title">カテゴリ分布</div>
+                <div class="mini-bubble-wrap">
+                    <canvas id="miniDonut" height="100"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ========== MIDDLE: BUBBLE + BAR ========== -->
+    <section id="middleSection">
+
+        <!-- Bubble Chart -->
+        <div class="mid-card" id="bubbleCard">
+            <div class="mid-card-title">💬 グローバル話題バブル <span class="mid-hint">バブルの大きさ＝言及数</span></div>
+            <div class="bubble-wrap">
+                <canvas id="bubbleChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Horizontal Bar Ranking -->
+        <div class="mid-card" id="barCard">
+            <div class="mid-card-title">
+                🏆 世界ランキング TOP15
+                <div class="bar-cat-filter" id="barCatFilter">
+                    <button class="bcat-btn active" data-cat="all">ALL</button>
+                    <button class="bcat-btn" data-cat="geo">地政学</button>
+                    <button class="bcat-btn" data-cat="econ">経済</button>
+                    <button class="bcat-btn" data-cat="tech">技術</button>
+                    <button class="bcat-btn" data-cat="social">社会</button>
+                </div>
+            </div>
+            <div id="barRankList" class="bar-rank-list"></div>
+        </div>
+
+    </section>
+
+    <!-- ========== BOTTOM: COUNTRY COMPARISON ========== -->
+    <section id="bottomSection">
+        <div class="bottom-header">
+            🗂️ 国別トレンド比較
+            <span class="bottom-hint">複数国で共通するワードは <span class="shared-badge">共通</span> マーク</span>
+        </div>
+        <div id="countryCards" class="country-cards"></div>
+    </section>
+
+    <script src="js/data.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
