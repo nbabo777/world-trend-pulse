@@ -13,6 +13,7 @@ async function initApp() {
     animateLoading();
 
     // データ取得
+    await DataAPI.loadData();
     const globalRanking = DataAPI.getGlobalRanking();
 
     // 初期描画

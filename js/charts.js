@@ -98,19 +98,20 @@ function renderBarRanking(globalRanking, catFilter = 'all') {
         ? globalRanking
         : globalRanking.filter(d => d.cat === catFilter);
 
-    const top15 = filtered.slice(0, 15);
-    const maxCount = top15[0]?.count || 1;
+    const top30 = filtered.slice(0, 30);
+    const maxCount = top30[0]?.count || 1;
 
     const trendIcon = { up: '↑', down: '↓', st: '→' };
     const trendCls = { up: 'trend-up', down: 'trend-dn', st: 'trend-st' };
 
-    container.innerHTML = top15.map((item, i) => {
+    container.innerHTML = top30.map((item, i) => {
         const pct = Math.round((item.count / maxCount) * 100);
         const color = DataAPI.catColor(item.cat);
         const flags = item.countries.map(c => COUNTRY_TRENDS[c]?.flag || '').join('');
         const delay = i * 40;
+        const cList = JSON.stringify(item.countries).replace(/"/g, "'");
         return `
-      <div class="bar-item" style="animation-delay:${delay}ms">
+      <div class="bar-item" style="animation-delay:${delay}ms; cursor:pointer;" onclick="highlightCountriesOnWordClick(${cList})">
         <span class="bar-rank">#${i + 1}</span>
         <span class="bar-word" style="color:${color}">${item.word}</span>
         <div class="bar-outer">

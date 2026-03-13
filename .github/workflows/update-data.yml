@@ -1,0 +1,36 @@
+name: Update Trends Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # 6時間ごとに実行
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # コミットをプッシュするための権限
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run data collection script
+        run: node fetch_trends.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data.json
+          # 変更がある場合のみコミット
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update trends data"
+          git push

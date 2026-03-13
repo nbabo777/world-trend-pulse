@@ -1,0 +1,28 @@
+{
+  "name": "world-trend-pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbabo777/world-trend-pulse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nbabo777/world-trend-pulse/issues"
+  },
+  "homepage": "https://github.com/nbabo777/world-trend-pulse#readme",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "rss-parser": "^3.13.0",
+    "stopword": "^3.1.5"
+  }
+}

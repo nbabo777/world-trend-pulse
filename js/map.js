@@ -130,3 +130,34 @@ function renderFallbackMarkers() {
         marker.on('click', () => UIController.openRankPanel(code));
     });
 }
+
+// 特定の国をハイライトする関数
+function highlightCountriesOnWordClick(countries) {
+    if (!geoLayer) return;
+
+    // まずリセットする
+    resetMapHighlight();
+
+    // 指定された国がある場合のみハイライト処理
+    if (countries && countries.length > 0) {
+        geoLayer.eachLayer(layer => {
+            const iso3 = layer.feature.properties?.ADM0_A3 || layer.feature.properties?.ISO_A3 || '';
+            const code = DataAPI.isoToCode(iso3);
+
+            if (countries.includes(code)) {
+                // ハイライトする国
+                layer.setStyle({ weight: 3, color: '#fff', fillOpacity: 0.9 });
+                layer.bringToFront();
+            } else {
+                // それ以外の国は暗くする
+                layer.setStyle({ fillOpacity: 0.2, color: 'rgba(255,255,255,0.05)', weight: 0.3 });
+            }
+        });
+    }
+}
+
+function resetMapHighlight() {
+    if (geoLayer) {
+        geoLayer.eachLayer(layer => geoLayer.resetStyle(layer));
+    }
+}
