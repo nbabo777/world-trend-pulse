@@ -1,9 +1,10 @@
 /* =====================================================
-   map.js — Leaflet.js ベースの世界地図（スコア強度カラー）
+   map.js — Leaflet.js ベースの世界地図（バブルマップ）
    ===================================================== */
 
 let leafletMap = null;
-let geoLayer = null;
+let bgLayer = null; // 背景としての地図層
+let bubbleLayer = null; // バブルマーカーの親レイヤー
 
 function initMap() {
     leafletMap = L.map('map', {
@@ -17,6 +18,8 @@ function initMap() {
         subdomains: 'abcd', maxZoom: 20,
     }).addTo(leafletMap);
 
+    bubbleLayer = L.layerGroup().addTo(leafletMap);
+
     loadGeoJSON();
 }
 
@@ -24,43 +27,110 @@ function loadGeoJSON() {
     fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson')
         .then(r => r.json())
         .then(data => {
-            geoLayer = L.geoJSON(data, {
-                style: feature => styleCountry(feature),
-                onEachFeature: (feature, layer) => bindCountryEvents(feature, layer),
+            // 背景レイヤー（色は一律で非常に薄く、インタラクションなし）
+            bgLayer = L.geoJSON(data, {
+                style: {
+                    fillColor: 'rgba(20,30,48,0.3)',
+                    fillOpacity: 0.3,
+                    color: 'rgba(255,255,255,0.05)',
+                    weight: 0.5,
+                },
+                interactive: false // 背景はクリック等に反応しない
             }).addTo(leafletMap);
+
+            // バブルレイヤーの生成
+            renderBubbles(data);
         })
         .catch(() => renderFallbackMarkers());
 }
 
-function styleCountry(feature) {
-    const iso3 = feature.properties?.ADM0_A3 || feature.properties?.ISO_A3 || '';
-    const code = DataAPI.isoToCode(iso3);
-    const data = code ? DataAPI.getCountry(code) : null;
+// 各国の代表点（必要に応じて微調整）
+const CUSTOM_POSITIONS = {
+    US: [38, -97], JP: [36, 138], CN: [35, 105], DE: [51, 10],
+    GB: [54, -2], IN: [20, 78], AU: [-25, 133], BR: [-15, -55],
+    KR: [37, 128], FR: [46, 2], CA: [56, -96], RU: [62, 90],
+};
 
-    if (!data) {
-        return { fillColor: 'rgba(20,30,48,0.6)', fillOpacity: 0.5, color: 'rgba(255,255,255,0.06)', weight: 0.3 };
-    }
-    return {
-        fillColor: DataAPI.scoreToColor(data.score, 0.8),
-        fillOpacity: 0.82,
-        color: 'rgba(255,255,255,0.15)',
-        weight: 0.6,
-    };
+function renderBubbles(geoData) {
+    bubbleLayer.clearLayers();
+
+    // 取得できている国のデータリスト
+    const allData = DataAPI.getAllCountries();
+
+    // geoJSONから各国の中心点（おおまか）を計算するか、カスタム座標を使う
+    geoData.features.forEach(feature => {
+        const iso3 = feature.properties?.ADM0_A3 || feature.properties?.ISO_A3 || '';
+        const code = DataAPI.isoToCode(iso3);
+        const data = code ? allData[code] : null;
+
+        if (data) {
+            const name = feature.properties?.ADMIN || feature.properties?.NAME || 'Unknown';
+            // カスタム座標があれば優先、なければポリゴンの最初の座標群から適当な中心を使う
+            let latlng = CUSTOM_POSITIONS[code];
+            if (!latlng) {
+                // GeoJSONの簡単な重心計算（厳密ではないが中央付近）
+                const coords = feature.geometry.coordinates;
+                let c = coords[0];
+                if (feature.geometry.type === 'MultiPolygon') c = coords[0][0];
+                // とりあえず1つ目のポイントを使う（かなり適当になる可能性があるため、主要国はCUSTOM_POSITIONSを推奨）
+                latlng = [c[0][1], c[0][0]];
+            }
+
+            const color = DataAPI.scoreToColor(data.score, 0.9);
+            // スコアを元にバブルの半径を決定
+            const radius = 10 + (data.score * 0.25);
+
+            const marker = L.circleMarker(latlng, {
+                radius: radius,
+                fillColor: color,
+                fillOpacity: 0.8,
+                color: 'rgba(255,255,255,0.3)', // 枠線
+                weight: 1.5,
+                code: code // カスタムプロパティとして保存
+            });
+
+            bindBubbleEvents(marker, name, data, code);
+            marker.addTo(bubbleLayer);
+        }
+    });
+
+    // CUSTOM_POSITIONS にあるが geoData にマッチしなかったものを補完
+    Object.keys(CUSTOM_POSITIONS).forEach(code => {
+        if (!allData[code]) return;
+        // すでにbubbleLayerにあるかチェック
+        let exists = false;
+        bubbleLayer.eachLayer(l => { if (l.options.code === code) exists = true; });
+        if (!exists) {
+            const data = allData[code];
+            const name = data.name;
+            const latlng = CUSTOM_POSITIONS[code];
+            const color = DataAPI.scoreToColor(data.score, 0.9);
+            const radius = 10 + (data.score * 0.25);
+
+            const marker = L.circleMarker(latlng, {
+                radius: radius,
+                fillColor: color,
+                fillOpacity: 0.8,
+                color: 'rgba(255,255,255,0.3)',
+                weight: 1.5,
+                code: code
+            });
+            bindBubbleEvents(marker, name, data, code);
+            marker.addTo(bubbleLayer);
+        }
+    });
 }
 
-function bindCountryEvents(feature, layer) {
-    const iso3 = feature.properties?.ADM0_A3 || feature.properties?.ISO_A3 || '';
-    const code = DataAPI.isoToCode(iso3);
-    const data = code ? DataAPI.getCountry(code) : null;
-    const name = feature.properties?.ADMIN || feature.properties?.NAME || 'Unknown';
-
-    layer.on({
+function bindBubbleEvents(marker, name, data, code) {
+    const defaultColor = marker.options.fillColor;
+    marker.on({
         mousemove: (e) => {
-            layer.setStyle({ weight: data ? 2 : 0.6, color: data ? '#fff' : 'rgba(255,255,255,.2)', fillOpacity: data ? 1 : 0.6 });
+            marker.setStyle({ weight: 3, color: '#fff', fillOpacity: 1 });
+            marker.bringToFront();
             showMapTooltip(e, name, data);
         },
         mouseout: () => {
-            if (geoLayer) geoLayer.resetStyle(layer);
+            marker.setStyle({ weight: 1.5, color: 'rgba(255,255,255,0.3)', fillOpacity: 0.8 });
             hideMapTooltip();
         },
         click: () => {
@@ -75,8 +145,8 @@ function showMapTooltip(e, name, data) {
     if (!tt || !mapEl) return;
 
     const rect = mapEl.getBoundingClientRect();
-    const x = e.originalEvent.clientX - rect.left + 14;
-    const y = e.originalEvent.clientY - rect.top - 14;
+    const x = e.originalEvent.clientX - rect.left;
+    const y = e.originalEvent.clientY - rect.top;
 
     tt.style.left = x + 'px';
     tt.style.top = y + 'px';
@@ -105,59 +175,53 @@ function hideMapTooltip() {
     if (tt) tt.classList.add('hidden');
 }
 
-// フォールバック: 円マーカー
+// フォールバック（ネットワークエラー時など）
 function renderFallbackMarkers() {
-    const positions = {
-        US: [38, -97], JP: [36, 138], CN: [35, 105], DE: [51, 10],
-        GB: [54, -2], IN: [20, 78], AU: [-25, 133], BR: [-15, -55],
-        KR: [37, 128], FR: [46, 2], CA: [56, -96], RU: [62, 90],
-    };
-
-    Object.entries(positions).forEach(([code, pos]) => {
+    bubbleLayer.clearLayers();
+    Object.entries(CUSTOM_POSITIONS).forEach(([code, pos]) => {
         const data = DataAPI.getCountry(code);
         if (!data) return;
-        const color = DataAPI.scoreToColor(data.score);
-
+        const color = DataAPI.scoreToColor(data.score, 0.9);
         const marker = L.circleMarker(pos, {
-            radius: 16 + data.score / 20,
+            radius: 10 + (data.score * 0.25),
             fillColor: color, color: 'rgba(255,255,255,.3)',
-            weight: 1, fillOpacity: 0.85,
-        }).addTo(leafletMap);
-
-        marker.bindTooltip(`<b>${data.flag} ${data.name}</b><br>#1: ${data.trends[0]?.word}<br>${data.trends[0]?.count?.toLocaleString()} mentions`, {
-            direction: 'top', className: 'leaflet-dark-tooltip',
+            weight: 1.5, fillOpacity: 0.8, code: code
         });
-        marker.on('click', () => UIController.openRankPanel(code));
+        bindBubbleEvents(marker, data.name, data, code);
+        marker.addTo(bubbleLayer);
     });
 }
 
-// 特定の国をハイライトする関数
+// バブルのハイライト機能
 function highlightCountriesOnWordClick(countries) {
-    if (!geoLayer) return;
+    if (!bubbleLayer) return;
 
-    // まずリセットする
     resetMapHighlight();
 
-    // 指定された国がある場合のみハイライト処理
     if (countries && countries.length > 0) {
-        geoLayer.eachLayer(layer => {
-            const iso3 = layer.feature.properties?.ADM0_A3 || layer.feature.properties?.ISO_A3 || '';
-            const code = DataAPI.isoToCode(iso3);
-
-            if (countries.includes(code)) {
-                // ハイライトする国
-                layer.setStyle({ weight: 3, color: '#fff', fillOpacity: 0.9 });
-                layer.bringToFront();
+        bubbleLayer.eachLayer(marker => {
+            if (countries.includes(marker.options.code)) {
+                // ハイライト
+                marker.setStyle({ weight: 3, color: '#fff', fillOpacity: 1, radius: marker.options.radius + 4 });
+                marker.bringToFront();
             } else {
-                // それ以外の国は暗くする
-                layer.setStyle({ fillOpacity: 0.2, color: 'rgba(255,255,255,0.05)', weight: 0.3 });
+                // 暗くする
+                marker.setStyle({ fillOpacity: 0.2, color: 'rgba(255,255,255,0.05)', weight: 0.5 });
             }
         });
     }
 }
 
 function resetMapHighlight() {
-    if (geoLayer) {
-        geoLayer.eachLayer(layer => geoLayer.resetStyle(layer));
+    if (bubbleLayer) {
+        bubbleLayer.eachLayer(marker => {
+            marker.setStyle({
+                weight: 1.5,
+                color: 'rgba(255,255,255,0.3)',
+                fillOpacity: 0.8,
+                // もとの半径に戻すためにスコアから再計算
+                radius: 10 + (DataAPI.getCountry(marker.options.code)?.score * 0.25 || 0)
+            });
+        });
     }
 }

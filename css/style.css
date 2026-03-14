@@ -321,19 +321,23 @@ body {
 /* Map Tooltip */
 .map-tooltip {
     position: absolute;
-    z-index: 500;
+    background: rgba(12, 16, 24, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 12px;
     pointer-events: none;
-    background: rgba(12, 16, 24, .97);
-    border: 1px solid var(--border2);
-    border-radius: 12px;
-    padding: 12px 16px;
-    min-width: 180px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, .6);
-    transition: opacity .15s;
+    z-index: 1000;
+    min-width: 160px;
+    transition: left 0.1s ease, top 0.1s ease, opacity 0.2s;
+    backdrop-filter: blur(8px);
+    opacity: 1;
+    transform: translate(-50%, -100%) translateY(-20px); /* カーソルの真上に表示 */
 }
 
 .map-tooltip.hidden {
     opacity: 0;
+    visibility: hidden;
 }
 
 .tt-flag {
