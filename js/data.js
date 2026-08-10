@@ -10,32 +10,43 @@ const CAT_COLOR = { geo: '#f97316', econ: '#22d3ee', tech: '#a855f7', social: '#
 // count = 言及数（24時間で収集されたニュース記事・SNS投稿の該当ワード数）
 let COUNTRY_TRENDS = {};
 let excludedEnglishWords = new Set();
+let ambiguousEnglishWords = new Set();
 
-function isExcludedTrendWord(trend) {
+function getTrendQuality(trend) {
     const candidates = [trend.originalEng, trend.word];
-    return candidates.some(word =>
-        typeof word === 'string' && excludedEnglishWords.has(word.trim().toLowerCase())
-    );
+    const normalized = candidates
+        .filter(word => typeof word === 'string')
+        .map(word => word.trim().toLowerCase());
+    if (normalized.some(word => excludedEnglishWords.has(word))) return 'excluded';
+    if (trend.quality === 'ambiguous' || normalized.some(word => ambiguousEnglishWords.has(word))) return 'ambiguous';
+    return 'meaningful';
 }
 
 function applyExcludedWords(countries) {
     return Object.fromEntries(Object.entries(countries).map(([code, data]) => [code, {
         ...data,
         trends: data.trends
-            .filter(trend => !isExcludedTrendWord(trend))
+            .map(trend => ({ ...trend, quality: getTrendQuality(trend) }))
+            .filter(trend => trend.quality !== 'excluded')
             .map((trend, index) => ({ ...trend, rank: index + 1 })),
     }]));
 }
 
+function trendsForMode(data, mode = 'curated') {
+    return mode === 'all'
+        ? data.trends
+        : data.trends.filter(trend => trend.quality === 'meaningful');
+}
+
 // ===== グローバルランキング（全国の言及数を集計） =====
-function buildGlobalRanking() {
+function buildGlobalRanking(mode = 'curated') {
     const map = {};
     Object.entries(COUNTRY_TRENDS).forEach(([code, data]) => {
-        data.trends.forEach(t => {
+        trendsForMode(data, mode).forEach(t => {
             // 英語ワードのみ集計（多言語は同じカテゴリとしてまとめる）
             const key = t.word;
             if (!map[key]) {
-                map[key] = { word: t.word, count: 0, cat: t.cat, trend: t.trend, countries: [] };
+                map[key] = { word: t.word, count: 0, cat: t.cat, trend: t.trend, quality: t.quality, countries: [] };
             }
             map[key].count += t.count;
             map[key].countries.push(code);
@@ -48,10 +59,10 @@ function buildGlobalRanking() {
 }
 
 // ===== 共通ワード検出（複数国で登場するワード） =====
-function findSharedWords() {
+function findSharedWords(mode = 'curated') {
     const wordCountries = {};
     Object.entries(COUNTRY_TRENDS).forEach(([code, data]) => {
-        data.trends.forEach(t => {
+        trendsForMode(data, mode).forEach(t => {
             if (!wordCountries[t.word]) wordCountries[t.word] = new Set();
             wordCountries[t.word].add(code);
         });
@@ -87,8 +98,9 @@ const DataAPI = {
                 fetch('excluded_words.json?v=' + new Date().getTime()),
             ]);
             if (excludedWordsResponse.ok) {
-                const { englishGenericStopWords = [] } = await excludedWordsResponse.json();
+                const { englishGenericStopWords = [], ambiguousEnglishWords: ambiguousWords = [] } = await excludedWordsResponse.json();
                 excludedEnglishWords = new Set(englishGenericStopWords.map(word => word.toLowerCase()));
+                ambiguousEnglishWords = new Set(ambiguousWords.map(word => word.toLowerCase()));
             } else {
                 console.warn('excluded_words.json could not be loaded');
             }
@@ -101,10 +113,15 @@ const DataAPI = {
             console.error('Network error loading data.json', e);
         }
     },
-    getCountry: (code) => COUNTRY_TRENDS[code] || null,
-    getAllCountries: () => COUNTRY_TRENDS,
-    getGlobalRanking: () => buildGlobalRanking(),
-    getSharedWords: () => findSharedWords(),
+    getCountry: (code, mode = 'curated') => {
+        const data = COUNTRY_TRENDS[code];
+        return data ? { ...data, trends: trendsForMode(data, mode) } : null;
+    },
+    getAllCountries: (mode = 'curated') => Object.fromEntries(
+        Object.entries(COUNTRY_TRENDS).map(([code, data]) => [code, { ...data, trends: trendsForMode(data, mode) }])
+    ),
+    getGlobalRanking: (mode = 'curated') => buildGlobalRanking(mode),
+    getSharedWords: (mode = 'curated') => findSharedWords(mode),
     getCompareCountries: () => ['US', 'JP', 'CN', 'DE', 'GB', 'IN'],
     isoToCode: (iso3) => ISO3_TO_CODE[iso3] || null,
     scoreToColor,

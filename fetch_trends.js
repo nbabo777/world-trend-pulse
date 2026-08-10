@@ -20,10 +20,15 @@ const COUNTRIES = {
 };
 
 // 一般語や見出しの定型語は集計から除外する。excluded_words.json は画面表示時にも同じルールで使用する。
-const { englishGenericStopWords } = JSON.parse(
+const { englishGenericStopWords, ambiguousEnglishWords = [] } = JSON.parse(
     fs.readFileSync(require('path').join(__dirname, 'excluded_words.json'), 'utf8')
 );
 const excludedWordSet = new Set(englishGenericStopWords.map(word => word.toLowerCase()));
+const ambiguousWordSet = new Set(ambiguousEnglishWords.map(word => word.toLowerCase()));
+
+function classifyWord(word) {
+    return ambiguousWordSet.has(word) ? 'ambiguous' : 'meaningful';
+}
 
 async function fetchAndTranslate() {
     console.log('Starting data collection...');
@@ -99,10 +104,11 @@ async function fetchAndTranslate() {
             counts[w] = (counts[w] || 0) + 1;
         });
 
-        // Get top 10 for the country
+        // 精選・全候補の両方を表示できるよう、候補を多めに保存する
         const sortedWords = Object.entries(counts)
             .sort((a, b) => b[1] - a[1])
-            .slice(0, 10);
+            .slice(0, 30)
+            .map(([word, count]) => [word, count, classifyWord(word)]);
 
         wordCountsPerCountry[code] = sortedWords;
 
@@ -168,7 +174,8 @@ async function fetchAndTranslate() {
                 cat: cat,
                 trend: trend,
                 rank: index + 1,
-                originalEng: w[0] // save english for cross-country matching if needed
+                originalEng: w[0], // save english for cross-country matching if needed
+                quality: w[2],
             });
         });
     }

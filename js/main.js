@@ -14,32 +14,28 @@ async function initApp() {
 
     // データ取得
     await DataAPI.loadData();
-    const globalRanking = DataAPI.getGlobalRanking();
-
     // 初期描画
     UIController.updateClock();
     UIController.updateTime();
-    UIController.renderTop3(globalRanking);
+    refreshDashboard();
 
     // 地図
     initMap();
 
     // チャート（少し遅延させてローディングUIが完了してから描画）
     setTimeout(() => {
-        renderBubbleChart(globalRanking);
-        renderBarRanking(globalRanking, 'all');
-        UIController.renderCountryCards();
+        refreshDashboard();
     }, 300);
 
     // イベントリスナー
-    setupEvents(globalRanking);
+    setupEvents();
 
     // 時計
     setInterval(() => UIController.updateClock(), 1000);
 
     // 定期的なカウントのゆらぎ（リアル感）
     setInterval(() => {
-        const updated = DataAPI.getGlobalRanking();
+        const updated = DataAPI.getGlobalRanking(getRankingMode());
         UIController.renderTop3(updated);
         renderBarRanking(updated, currentBarCat);
     }, 12000);
@@ -74,8 +70,22 @@ function animateLoading() {
 // ============ イベント設定 ============
 let currentBarCat = 'all';
 let currentRankCode = null;
+let currentRankingMode = 'curated';
 
-function setupEvents(globalRanking) {
+function getRankingMode() {
+    return currentRankingMode;
+}
+
+function refreshDashboard() {
+    const globalRanking = DataAPI.getGlobalRanking(getRankingMode());
+    UIController.renderTop3(globalRanking);
+    renderBubbleChart(globalRanking);
+    renderBarRanking(globalRanking, currentBarCat);
+    UIController.renderCountryCards();
+    if (currentRankCode) UIController.openRankPanel(currentRankCode);
+}
+
+function setupEvents() {
 
     // 横棒グラフ カテゴリフィルタ
     document.querySelectorAll('.bcat-btn').forEach(btn => {
@@ -83,7 +93,7 @@ function setupEvents(globalRanking) {
             document.querySelectorAll('.bcat-btn').forEach(b => b.classList.remove('active'));
             this.classList.add('active');
             currentBarCat = this.dataset.cat;
-            renderBarRanking(globalRanking, currentBarCat);
+            renderBarRanking(DataAPI.getGlobalRanking(getRankingMode()), currentBarCat);
         });
     });
 
@@ -95,6 +105,14 @@ function setupEvents(globalRanking) {
             if (currentRankCode) {
                 UIController.filterRankByCat(currentRankCode, this.dataset.cat);
             }
+        });
+    });
+
+    document.querySelectorAll('.rank-mode-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+            currentRankingMode = this.dataset.mode;
+            document.querySelectorAll('.rank-mode-btn').forEach(b => b.classList.toggle('active', b === this));
+            refreshDashboard();
         });
     });
 

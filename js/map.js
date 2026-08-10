@@ -127,7 +127,7 @@ function bindBubbleEvents(marker, name, data, code) {
         mousemove: (e) => {
             marker.setStyle({ weight: 3, color: '#fff', fillOpacity: 1 });
             marker.bringToFront();
-            showMapTooltip(e, name, data);
+            showMapTooltip(e, name, code);
         },
         mouseout: () => {
             marker.setStyle({ weight: 1.5, color: 'rgba(255,255,255,0.3)', fillOpacity: 0.8 });
@@ -139,7 +139,7 @@ function bindBubbleEvents(marker, name, data, code) {
     });
 }
 
-function showMapTooltip(e, name, data) {
+function showMapTooltip(e, name, code) {
     const tt = document.getElementById('mapTooltip');
     const mapEl = document.getElementById('map');
     if (!tt || !mapEl) return;
@@ -152,6 +152,7 @@ function showMapTooltip(e, name, data) {
     tt.style.top = y + 'px';
     tt.classList.remove('hidden');
 
+    const data = code ? DataAPI.getCountry(code, getRankingMode()) : null;
     if (data) {
         const top3 = data.trends.slice(0, 3);
         document.getElementById('ttFlag').textContent = data.flag;
