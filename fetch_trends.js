@@ -19,12 +19,11 @@ const COUNTRIES = {
     CN: { url: 'https://news.google.com/rss?hl=zh-HK&gl=HK&ceid=HK:zh-Hant', name: '中国', flag: '🇨🇳', score: 85 } // using HK for better availability sometimes, or TW
 };
 
-// Add custom stop words
-const customStopWords = [
-    'new', 'says', 'say', 'will', 'report', 'year', 'time', 'world', 'news', 'update',
-    'live', 'video', 'day', 'days', 'years', 'man', 'woman', 'people', 'police',
-    'make', 'now', 'one', 'two', 'first', 'just', 'can', 'get', 'like', 'show', 'watch'
-];
+// 一般語や見出しの定型語は集計から除外する。excluded_words.json は画面表示時にも同じルールで使用する。
+const { englishGenericStopWords } = JSON.parse(
+    fs.readFileSync(require('path').join(__dirname, 'excluded_words.json'), 'utf8')
+);
+const excludedWordSet = new Set(englishGenericStopWords.map(word => word.toLowerCase()));
 
 async function fetchAndTranslate() {
     console.log('Starting data collection...');
@@ -91,7 +90,7 @@ async function fetchAndTranslate() {
 
         // Remove stopwords
         let filteredWords = removeStopwords(allWords);
-        filteredWords = removeStopwords(filteredWords, customStopWords);
+        filteredWords = filteredWords.filter(word => !excludedWordSet.has(word));
 
         // N-gram simple approach (unigrams for now + bigrams if capitalized in original, but let's stick to unigrams to keep it simple, or generate bigrams)
         // Let's stick to unigrams for frequency counting to avoid fragmentation
