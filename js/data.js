@@ -9,6 +9,23 @@ const CAT_COLOR = { geo: '#f97316', econ: '#22d3ee', tech: '#a855f7', social: '#
 // ===== 各国トレンドワードデータ =====
 // count = 言及数（24時間で収集されたニュース記事・SNS投稿の該当ワード数）
 let COUNTRY_TRENDS = {};
+let excludedEnglishWords = new Set();
+
+function isExcludedTrendWord(trend) {
+    const candidates = [trend.originalEng, trend.word];
+    return candidates.some(word =>
+        typeof word === 'string' && excludedEnglishWords.has(word.trim().toLowerCase())
+    );
+}
+
+function applyExcludedWords(countries) {
+    return Object.fromEntries(Object.entries(countries).map(([code, data]) => [code, {
+        ...data,
+        trends: data.trends
+            .filter(trend => !isExcludedTrendWord(trend))
+            .map((trend, index) => ({ ...trend, rank: index + 1 })),
+    }]));
+}
 
 // ===== グローバルランキング（全国の言及数を集計） =====
 function buildGlobalRanking() {
@@ -65,9 +82,18 @@ function scoreToColor(score, alpha = 0.85) {
 const DataAPI = {
     loadData: async () => {
         try {
-            const res = await fetch('data.json?v=' + new Date().getTime());
-            if (res.ok) {
-                COUNTRY_TRENDS = await res.json();
+            const [dataResponse, excludedWordsResponse] = await Promise.all([
+                fetch('data.json?v=' + new Date().getTime()),
+                fetch('excluded_words.json?v=' + new Date().getTime()),
+            ]);
+            if (excludedWordsResponse.ok) {
+                const { englishGenericStopWords = [] } = await excludedWordsResponse.json();
+                excludedEnglishWords = new Set(englishGenericStopWords.map(word => word.toLowerCase()));
+            } else {
+                console.warn('excluded_words.json could not be loaded');
+            }
+            if (dataResponse.ok) {
+                COUNTRY_TRENDS = applyExcludedWords(await dataResponse.json());
             } else {
                 console.warn('data.json could not be loaded');
             }
