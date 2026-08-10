@@ -453,6 +453,46 @@ body {
     font-weight: 600;
 }
 
+.ranking-mode-filter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px max(18px, calc((100vw - 1440px) / 2));
+    color: var(--text3);
+    font-size: 11px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(7, 12, 21, .65);
+}
+
+.ranking-mode-filter small { color: var(--text3); }
+
+.rank-mode-btn, .quality-badge {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-family: var(--sans);
+    font-size: 10px;
+}
+
+.rank-mode-btn {
+    padding: 3px 8px;
+    cursor: pointer;
+    color: var(--text3);
+    background: transparent;
+}
+
+.rank-mode-btn.active {
+    color: #fff;
+    background: var(--acc);
+    border-color: var(--acc);
+}
+
+.quality-badge {
+    padding: 1px 4px;
+    color: #fbbf24;
+    border-color: rgba(251, 191, 36, .45);
+    white-space: nowrap;
+}
+
 /* Rank List */
 .rank-list {
     flex: 1;

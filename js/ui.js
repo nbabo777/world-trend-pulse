@@ -44,7 +44,7 @@ const UIController = {
 
     // ===== 国別ランキングパネル =====
     openRankPanel(code) {
-        const data = DataAPI.getCountry(code);
+        const data = DataAPI.getCountry(code, getRankingMode());
         if (!data) return;
 
         document.getElementById('rankPlaceholder').style.display = 'none';
@@ -79,6 +79,7 @@ const UIController = {
           <span class="ri-rank ${isTop3 ? 'top3' : ''}">#${i + 1}</span>
           <div class="ri-cat-dot" style="background:${color}"></div>
           <span class="ri-word" style="color:${isTop3 ? '#fff' : '#cbd5e1'}">${item.word}</span>
+          ${item.quality === 'ambiguous' ? '<span class="quality-badge">要確認</span>' : ''}
           <span class="ri-trend ${trendCls[item.trend]}">${trendIcon[item.trend]}</span>
           <div class="ri-bar-wrap">
             <div class="ri-bar" style="width:${pct}%;background:${color};transition-delay:${delay}ms"></div>
@@ -92,7 +93,7 @@ const UIController = {
     // ===== カテゴリフィルタ変更 =====
     filterRankByCat(code, cat) {
         currentCatFilter = cat;
-        const data = DataAPI.getCountry(code);
+        const data = DataAPI.getCountry(code, getRankingMode());
         if (!data) return;
         this._renderRankList(data.trends, cat);
     },
@@ -100,12 +101,12 @@ const UIController = {
     // ===== 国別比較カード =====
     renderCountryCards() {
         const codes = DataAPI.getCompareCountries();
-        const sharedWords = DataAPI.getSharedWords();
+        const sharedWords = DataAPI.getSharedWords(getRankingMode());
         const container = document.getElementById('countryCards');
         if (!container) return;
 
         container.innerHTML = codes.map(code => {
-            const data = DataAPI.getCountry(code);
+            const data = DataAPI.getCountry(code, getRankingMode());
             if (!data) return '';
             const top5 = data.trends.slice(0, 5);
 

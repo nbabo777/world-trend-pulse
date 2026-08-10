@@ -114,6 +114,7 @@ function renderBarRanking(globalRanking, catFilter = 'all') {
       <div class="bar-item" style="animation-delay:${delay}ms; cursor:pointer;" onclick="highlightCountriesOnWordClick(${cList})">
         <span class="bar-rank">#${i + 1}</span>
         <span class="bar-word" style="color:${color}">${item.word}</span>
+        ${item.quality === 'ambiguous' ? '<span class="quality-badge">要確認</span>' : ''}
         <div class="bar-outer">
           <div class="bar-inner" style="width:${pct}%;background:${color}44;border-left:2px solid ${color};transition-delay:${delay}ms">
             <span class="bar-val">${item.count.toLocaleString()}</span>
