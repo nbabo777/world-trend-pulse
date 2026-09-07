@@ -5,62 +5,62 @@
     "score": 92,
     "trends": [
       {
-        "word": "男",
-        "count": 50769,
-        "cat": "tech",
-        "trend": "up",
+        "word": "状態",
+        "count": 50038,
+        "cat": "econ",
+        "trend": "down",
         "rank": 1,
-        "originalEng": "man",
+        "originalEng": "state",
         "quality": "meaningful"
       },
       {
-        "word": "トランプ",
-        "count": 46214,
+        "word": "launches",
+        "count": 47129,
+        "cat": "social",
+        "trend": "down",
+        "rank": 2,
+        "originalEng": "launches",
+        "quality": "meaningful"
+      },
+      {
+        "word": "を起動します",
+        "count": 43050,
         "cat": "tech",
         "trend": "up",
-        "rank": 2,
+        "rank": 3,
+        "originalEng": "iran",
+        "quality": "meaningful"
+      },
+      {
+        "word": "イラン",
+        "count": 39001,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 4,
+        "originalEng": "prices",
+        "quality": "meaningful"
+      },
+      {
+        "word": "価格",
+        "count": 35533,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 5,
         "originalEng": "trump",
         "quality": "meaningful"
       },
       {
-        "word": "コントロール",
-        "count": 42361,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 3,
-        "originalEng": "control",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ハリケーン",
-        "count": 38965,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 4,
-        "originalEng": "hurricane",
-        "quality": "meaningful"
-      },
-      {
-        "word": "殺されました",
-        "count": 35592,
-        "cat": "social",
-        "trend": "down",
-        "rank": 5,
-        "originalEng": "killed",
-        "quality": "meaningful"
-      },
-      {
-        "word": "質問",
-        "count": 31181,
+        "word": "トランプ",
+        "count": 30602,
         "cat": "social",
         "trend": "down",
         "rank": 6,
-        "originalEng": "questions",
+        "originalEng": "back",
         "quality": "meaningful"
       },
       {
-        "word": "スペースx",
-        "count": 26471,
+        "word": "戻る",
+        "count": 27562,
         "cat": "tech",
         "trend": "up",
         "rank": 7,
@@ -68,17 +68,17 @@
         "quality": "meaningful"
       },
       {
-        "word": "launches",
-        "count": 22475,
-        "cat": "social",
-        "trend": "down",
+        "word": "スペースx",
+        "count": 22026,
+        "cat": "tech",
+        "trend": "up",
         "rank": 8,
-        "originalEng": "launches",
+        "originalEng": "rival",
         "quality": "meaningful"
       },
       {
-        "word": "を起動します",
-        "count": 19877,
+        "word": "ライバル",
+        "count": 18849,
         "cat": "geo",
         "trend": "up",
         "rank": 9,
@@ -87,191 +87,191 @@
       },
       {
         "word": "ロケット",
-        "count": 15487,
+        "count": 14083,
         "cat": "tech",
         "trend": "up",
         "rank": 10,
-        "originalEng": "jobs",
+        "originalEng": "event",
         "quality": "meaningful"
       },
       {
-        "word": "仕事",
-        "count": 11752,
-        "cat": "geo",
-        "trend": "up",
+        "word": "イベント",
+        "count": 10547,
+        "cat": "social",
+        "trend": "down",
         "rank": 11,
-        "originalEng": "colors",
+        "originalEng": "record",
         "quality": "meaningful"
       },
       {
-        "word": "色",
-        "count": 7357,
-        "cat": "econ",
+        "word": "記録",
+        "count": 6565,
+        "cat": "social",
         "trend": "down",
         "rank": 12,
+        "originalEng": "iphone",
+        "quality": "meaningful"
+      },
+      {
+        "word": "iphone",
+        "count": 2017,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 13,
         "originalEng": "xiaomi",
         "quality": "meaningful"
       },
       {
         "word": "シャオミ",
-        "count": 2902,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "apple",
-        "quality": "meaningful"
-      },
-      {
-        "word": "リンゴ",
-        "count": -845,
+        "count": -1324,
         "cat": "social",
         "trend": "down",
         "rank": 14,
-        "originalEng": "person",
+        "originalEng": "foldable",
         "quality": "meaningful"
       },
       {
-        "word": "人",
-        "count": -5878,
+        "word": "折りたたみ式",
+        "count": -5054,
+        "cat": "social",
+        "trend": "down",
+        "rank": 15,
+        "originalEng": "desert",
+        "quality": "meaningful"
+      },
+      {
+        "word": "砂漠",
+        "count": -9104,
         "cat": "geo",
         "trend": "up",
-        "rank": 15,
+        "rank": 16,
+        "originalEng": "fans",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ファン",
+        "count": -13617,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 17,
         "originalEng": "ole",
         "quality": "meaningful"
       },
       {
         "word": "オレ",
-        "count": -9034,
+        "count": -16648,
         "cat": "geo",
         "trend": "up",
-        "rank": 16,
+        "rank": 18,
         "originalEng": "miss",
         "quality": "meaningful"
       },
       {
         "word": "ミス",
-        "count": -12613,
+        "count": -20514,
         "cat": "tech",
         "trend": "up",
-        "rank": 17,
+        "rank": 19,
         "originalEng": "teams",
         "quality": "meaningful"
       },
       {
         "word": "チーム",
-        "count": -17707,
+        "count": -24516,
         "cat": "geo",
         "trend": "up",
-        "rank": 18,
-        "originalEng": "germanys",
+        "rank": 20,
+        "originalEng": "satellites",
         "quality": "meaningful"
       },
       {
-        "word": "ドイツ",
-        "count": -21601,
+        "word": "衛星",
+        "count": -29027,
         "cat": "social",
         "trend": "down",
-        "rank": 19,
+        "rank": 21,
         "originalEng": "afd",
         "quality": "meaningful"
       },
       {
         "word": "AFD",
-        "count": -25151,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 20,
-        "originalEng": "calls",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "parties",
-        "count": -28011,
-        "cat": "geo",
+        "count": -33199,
+        "cat": "tech",
         "trend": "up",
-        "rank": 21,
-        "originalEng": "parties",
-        "quality": "meaningful"
-      },
-      {
-        "word": "を呼び出しますパーティー",
-        "count": -32462,
-        "cat": "econ",
-        "trend": "down",
         "rank": 22,
-        "originalEng": "work",
+        "originalEng": "won",
         "quality": "ambiguous"
       },
       {
-        "word": "仕事",
-        "count": -37961,
+        "word": "勝ちました",
+        "count": -37729,
         "cat": "tech",
         "trend": "up",
         "rank": 23,
-        "originalEng": "saxonyanhalt",
+        "originalEng": "german",
         "quality": "meaningful"
       },
       {
-        "word": "サクソンヤンハルト",
-        "count": -40799,
+        "word": "ドイツ語",
+        "count": -41337,
         "cat": "geo",
         "trend": "up",
         "rank": 24,
-        "originalEng": "win",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "勝つ",
-        "count": -44096,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 25,
-        "originalEng": "suggests",
+        "originalEng": "germanys",
         "quality": "meaningful"
       },
       {
-        "word": "示唆します",
-        "count": -48027,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 26,
-        "originalEng": "renaming",
-        "quality": "meaningful"
-      },
-      {
-        "word": "名前を変更します",
-        "count": -53427,
-        "cat": "social",
-        "trend": "down",
-        "rank": 27,
-        "originalEng": "mexico",
-        "quality": "meaningful"
-      },
-      {
-        "word": "メキシコ",
-        "count": -56452,
-        "cat": "social",
-        "trend": "down",
-        "rank": 28,
-        "originalEng": "amid",
-        "quality": "meaningful"
-      },
-      {
-        "word": "torrent",
-        "count": -61202,
+        "word": "ドイツ",
+        "count": -44686,
         "cat": "geo",
         "trend": "up",
-        "rank": 29,
-        "originalEng": "torrent",
+        "rank": 25,
+        "originalEng": "firewall",
         "quality": "meaningful"
       },
       {
-        "word": "の中で急流",
-        "count": -65533,
+        "word": "ファイアウォール",
+        "count": -48770,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 26,
+        "originalEng": "faces",
+        "quality": "meaningful"
+      },
+      {
+        "word": "顔",
+        "count": -52344,
         "cat": "econ",
         "trend": "down",
+        "rank": 27,
+        "originalEng": "biggest",
+        "quality": "meaningful"
+      },
+      {
+        "word": "最大",
+        "count": -57690,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 28,
+        "originalEng": "test",
+        "quality": "meaningful"
+      },
+      {
+        "word": "テスト",
+        "count": -61512,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 29,
+        "originalEng": "updates",
+        "quality": "meaningful"
+      },
+      {
+        "word": "更新情報",
+        "count": -65267,
+        "cat": "tech",
+        "trend": "up",
         "rank": 30,
-        "originalEng": "online",
+        "originalEng": "expand",
         "quality": "meaningful"
       }
     ]
@@ -282,273 +282,273 @@
     "score": 78,
     "trends": [
       {
-        "word": "9月",
-        "count": 50236,
-        "cat": "social",
-        "trend": "down",
-        "rank": 1,
-        "originalEng": "september",
-        "quality": "meaningful"
-      },
-      {
-        "word": "洪水",
-        "count": 46051,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 2,
-        "originalEng": "flooding",
-        "quality": "meaningful"
-      },
-      {
-        "word": "日本",
-        "count": 42222,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 3,
-        "originalEng": "japan",
-        "quality": "meaningful"
-      },
-      {
-        "word": "バレーボール",
-        "count": 39646,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 4,
-        "originalEng": "volleyball",
-        "quality": "meaningful"
-      },
-      {
-        "word": "レベル",
-        "count": 35952,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 5,
-        "originalEng": "level",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "地滑り",
-        "count": 31520,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 6,
-        "originalEng": "landslide",
-        "quality": "meaningful"
-      },
-      {
-        "word": "村",
-        "count": 27825,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 7,
-        "originalEng": "village",
-        "quality": "meaningful"
-      },
-      {
-        "word": "安全性",
-        "count": 22651,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 8,
-        "originalEng": "safety",
-        "quality": "meaningful"
-      },
-      {
-        "word": "キャビネット",
-        "count": 19403,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 9,
-        "originalEng": "cabinet",
-        "quality": "meaningful"
-      },
-      {
-        "word": "表示されます",
-        "count": 15468,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 10,
-        "originalEng": "appears",
-        "quality": "meaningful"
-      },
-      {
-        "word": "負傷しました",
-        "count": 11938,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 11,
-        "originalEng": "injured",
-        "quality": "meaningful"
-      },
-      {
-        "word": "地滑り",
-        "count": 6351,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 12,
-        "originalEng": "landslides",
-        "quality": "meaningful"
-      },
-      {
         "word": "雨",
-        "count": 2208,
+        "count": 51433,
         "cat": "geo",
         "trend": "up",
-        "rank": 13,
+        "rank": 1,
         "originalEng": "rain",
         "quality": "meaningful"
       },
       {
-        "word": "徹",
-        "count": -1011,
+        "word": "closures",
+        "count": 46849,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 2,
+        "originalEng": "closures",
+        "quality": "meaningful"
+      },
+      {
+        "word": "スポーツ",
+        "count": 42151,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 3,
+        "originalEng": "sports",
+        "quality": "meaningful"
+      },
+      {
+        "word": "レベル",
+        "count": 39736,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 4,
+        "originalEng": "level",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "村",
+        "count": 34817,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 5,
+        "originalEng": "village",
+        "quality": "meaningful"
+      },
+      {
+        "word": "東",
+        "count": 31436,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 6,
+        "originalEng": "east",
+        "quality": "meaningful"
+      },
+      {
+        "word": "メートル",
+        "count": 26204,
         "cat": "tech",
+        "trend": "up",
+        "rank": 7,
+        "originalEng": "meters",
+        "quality": "meaningful"
+      },
+      {
+        "word": "会社",
+        "count": 23659,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 8,
+        "originalEng": "company",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ストア",
+        "count": 19944,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 9,
+        "originalEng": "store",
+        "quality": "meaningful"
+      },
+      {
+        "word": "地滑り",
+        "count": 15388,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 10,
+        "originalEng": "landslides",
+        "quality": "meaningful"
+      },
+      {
+        "word": "9月",
+        "count": 10826,
+        "cat": "social",
+        "trend": "down",
+        "rank": 11,
+        "originalEng": "september",
+        "quality": "meaningful"
+      },
+      {
+        "word": "重い",
+        "count": 6863,
+        "cat": "social",
+        "trend": "down",
+        "rank": 12,
+        "originalEng": "heavy",
+        "quality": "meaningful"
+      },
+      {
+        "word": "道路",
+        "count": 2946,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 13,
+        "originalEng": "road",
+        "quality": "meaningful"
+      },
+      {
+        "word": "russias",
+        "count": -218,
+        "cat": "geo",
         "trend": "up",
         "rank": 14,
-        "originalEng": "toru",
+        "originalEng": "russias",
         "quality": "meaningful"
       },
       {
-        "word": "イラン",
-        "count": -5771,
-        "cat": "tech",
-        "trend": "up",
+        "word": "使者",
+        "count": -5635,
+        "cat": "social",
+        "trend": "down",
         "rank": 15,
-        "originalEng": "iran",
+        "originalEng": "envoy",
         "quality": "meaningful"
       },
       {
-        "word": "ホルムズ",
-        "count": -9473,
+        "word": "攻撃",
+        "count": -8053,
         "cat": "econ",
         "trend": "down",
         "rank": 16,
-        "originalEng": "hormuz",
+        "originalEng": "attacks",
         "quality": "meaningful"
       },
       {
-        "word": "ステージ",
-        "count": -13656,
+        "word": "高い",
+        "count": -12609,
         "cat": "tech",
         "trend": "up",
         "rank": 17,
-        "originalEng": "stage",
-        "quality": "meaningful"
-      },
-      {
-        "word": "南",
-        "count": -17483,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 18,
-        "originalEng": "south",
-        "quality": "meaningful"
-      },
-      {
-        "word": "投稿しました",
-        "count": -20619,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 19,
-        "originalEng": "posted",
-        "quality": "meaningful"
-      },
-      {
-        "word": "円",
-        "count": -24526,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 20,
-        "originalEng": "yen",
-        "quality": "meaningful"
-      },
-      {
-        "word": "プライベート",
-        "count": -28200,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 21,
-        "originalEng": "private",
-        "quality": "meaningful"
-      },
-      {
-        "word": "日本語",
-        "count": -32711,
-        "cat": "social",
-        "trend": "down",
-        "rank": 22,
-        "originalEng": "japanese",
-        "quality": "meaningful"
+        "originalEng": "high",
+        "quality": "ambiguous"
       },
       {
         "word": "タグ",
-        "count": -36169,
+        "count": -17645,
         "cat": "tech",
         "trend": "up",
-        "rank": 23,
+        "rank": 18,
         "originalEng": "tag",
         "quality": "meaningful"
       },
       {
         "word": "ホイヤー",
-        "count": -41336,
+        "count": -21517,
         "cat": "econ",
         "trend": "down",
-        "rank": 24,
+        "rank": 19,
         "originalEng": "heuer",
         "quality": "meaningful"
       },
       {
-        "word": "結婚",
-        "count": -45609,
+        "word": "クロノグラフ",
+        "count": -24318,
+        "cat": "social",
+        "trend": "down",
+        "rank": 20,
+        "originalEng": "chronograph",
+        "quality": "meaningful"
+      },
+      {
+        "word": "announcing",
+        "count": -28230,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 21,
+        "originalEng": "announcing",
+        "quality": "meaningful"
+      },
+      {
+        "word": "タコ",
+        "count": -32670,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 22,
+        "originalEng": "octopus",
+        "quality": "meaningful"
+      },
+      {
+        "word": "national",
+        "count": -37135,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 23,
+        "originalEng": "national",
+        "quality": "meaningful"
+      },
+      {
+        "word": "別番",
+        "count": -40635,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 24,
+        "originalEng": "betsuban",
+        "quality": "meaningful"
+      },
+      {
+        "word": "やすこ",
+        "count": -45052,
         "cat": "tech",
         "trend": "up",
         "rank": 25,
-        "originalEng": "marriage",
+        "originalEng": "yasuko",
+        "quality": "meaningful"
+      },
+      {
+        "word": "日本",
+        "count": -49290,
+        "cat": "social",
+        "trend": "down",
+        "rank": 26,
+        "originalEng": "japans",
+        "quality": "meaningful"
+      },
+      {
+        "word": "地滑り",
+        "count": -52180,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 27,
+        "originalEng": "landslide",
         "quality": "meaningful"
       },
       {
         "word": "特別",
-        "count": -48065,
+        "count": -56709,
         "cat": "social",
         "trend": "down",
-        "rank": 26,
+        "rank": 28,
         "originalEng": "special",
         "quality": "meaningful"
       },
       {
         "word": "警告",
-        "count": -53603,
+        "count": -60191,
         "cat": "geo",
         "trend": "up",
-        "rank": 27,
+        "rank": 29,
         "originalEng": "warning",
         "quality": "meaningful"
       },
       {
-        "word": "発行されました",
-        "count": -57107,
+        "word": "発行済み",
+        "count": -64114,
         "cat": "econ",
         "trend": "down",
-        "rank": 28,
-        "originalEng": "issued",
-        "quality": "meaningful"
-      },
-      {
-        "word": "としま",
-        "count": -60813,
-        "cat": "social",
-        "trend": "down",
-        "rank": 29,
-        "originalEng": "toshima",
-        "quality": "meaningful"
-      },
-      {
-        "word": "伊豆",
-        "count": -64646,
-        "cat": "geo",
-        "trend": "up",
         "rank": 30,
-        "originalEng": "izu",
+        "originalEng": "issued",
         "quality": "meaningful"
       }
     ]
@@ -560,7 +560,7 @@
     "trends": [
       {
         "word": "次へ",
-        "count": 50961,
+        "count": 50549,
         "cat": "social",
         "trend": "down",
         "rank": 1,
@@ -568,264 +568,264 @@
         "quality": "meaningful"
       },
       {
-        "word": "かもしれません",
-        "count": 46164,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 2,
-        "originalEng": "may",
-        "quality": "meaningful"
-      },
-      {
-        "word": "戦争",
-        "count": 43859,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 3,
-        "originalEng": "war",
-        "quality": "meaningful"
-      },
-      {
-        "word": "探査機",
-        "count": 39762,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 4,
-        "originalEng": "rover",
-        "quality": "meaningful"
-      },
-      {
-        "word": "iphone",
-        "count": 35062,
-        "cat": "social",
-        "trend": "down",
-        "rank": 5,
-        "originalEng": "iphone",
-        "quality": "meaningful"
-      },
-      {
-        "word": "役員",
-        "count": 30967,
-        "cat": "social",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "officers",
-        "quality": "meaningful"
-      },
-      {
-        "word": "負傷しました",
-        "count": 27951,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 7,
-        "originalEng": "injured",
-        "quality": "meaningful"
-      },
-      {
-        "word": "車両",
-        "count": 23921,
-        "cat": "social",
-        "trend": "down",
-        "rank": 8,
-        "originalEng": "vehicles",
-        "quality": "meaningful"
-      },
-      {
-        "word": "破損しています",
-        "count": 19123,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 9,
-        "originalEng": "damaged",
-        "quality": "meaningful"
-      },
-      {
         "word": "反移民",
-        "count": 14860,
+        "count": 47402,
         "cat": "tech",
         "trend": "up",
-        "rank": 10,
+        "rank": 2,
         "originalEng": "antimigrant",
         "quality": "meaningful"
       },
       {
-        "word": "抗議",
-        "count": 11311,
+        "word": "警察",
+        "count": 43994,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 3,
+        "originalEng": "police",
+        "quality": "meaningful"
+      },
+      {
+        "word": "滞在",
+        "count": 39365,
         "cat": "econ",
         "trend": "down",
+        "rank": 4,
+        "originalEng": "stay",
+        "quality": "meaningful"
+      },
+      {
+        "word": "かもしれません",
+        "count": 34723,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 5,
+        "originalEng": "may",
+        "quality": "meaningful"
+      },
+      {
+        "word": "計画",
+        "count": 30995,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 6,
+        "originalEng": "plans",
+        "quality": "meaningful"
+      },
+      {
+        "word": "少なくとも",
+        "count": 26008,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 7,
+        "originalEng": "least",
+        "quality": "meaningful"
+      },
+      {
+        "word": "探査機",
+        "count": 22957,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 8,
+        "originalEng": "rover",
+        "quality": "meaningful"
+      },
+      {
+        "word": "支払う",
+        "count": 19447,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 9,
+        "originalEng": "pay",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ティム",
+        "count": 14733,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 10,
+        "originalEng": "tim",
+        "quality": "meaningful"
+      },
+      {
+        "word": "料理人",
+        "count": 11683,
+        "cat": "geo",
+        "trend": "up",
         "rank": 11,
-        "originalEng": "protest",
+        "originalEng": "cook",
+        "quality": "meaningful"
+      },
+      {
+        "word": "脳",
+        "count": 6402,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 12,
+        "originalEng": "brain",
+        "quality": "meaningful"
+      },
+      {
+        "word": "大臣",
+        "count": 3186,
+        "cat": "social",
+        "trend": "down",
+        "rank": 13,
+        "originalEng": "minister",
+        "quality": "meaningful"
+      },
+      {
+        "word": "非難する",
+        "count": -740,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 14,
+        "originalEng": "condemns",
+        "quality": "meaningful"
+      },
+      {
+        "word": "障害",
+        "count": -4941,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 15,
+        "originalEng": "disorder",
         "quality": "meaningful"
       },
       {
         "word": "ポーツマス",
-        "count": 7433,
+        "count": -9358,
         "cat": "econ",
         "trend": "down",
-        "rank": 12,
+        "rank": 16,
         "originalEng": "portsmouth",
         "quality": "meaningful"
       },
       {
-        "word": "極右",
-        "count": 3943,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 13,
-        "originalEng": "farright",
-        "quality": "meaningful"
-      },
-      {
-        "word": "afds",
-        "count": -1832,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 14,
-        "originalEng": "afds",
-        "quality": "meaningful"
-      },
-      {
-        "word": "状態",
-        "count": -4330,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 15,
-        "originalEng": "state",
-        "quality": "meaningful"
-      },
-      {
-        "word": "勝利",
-        "count": -9708,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 16,
-        "originalEng": "victory",
-        "quality": "meaningful"
-      },
-      {
-        "word": "重要",
-        "count": -13720,
+        "word": "抗議",
+        "count": -12233,
         "cat": "econ",
         "trend": "down",
         "rank": 17,
-        "originalEng": "significant",
+        "originalEng": "protest",
         "quality": "meaningful"
       },
       {
-        "word": "起こる",
-        "count": -16899,
-        "cat": "tech",
-        "trend": "up",
+        "word": "役員",
+        "count": -16594,
+        "cat": "social",
+        "trend": "down",
         "rank": 18,
-        "originalEng": "happen",
+        "originalEng": "officers",
         "quality": "meaningful"
       },
       {
-        "word": "ドイツ語",
-        "count": -20878,
+        "word": "痛い",
+        "count": -20177,
+        "cat": "social",
+        "trend": "down",
+        "rank": 19,
+        "originalEng": "hurt",
+        "quality": "meaningful"
+      },
+      {
+        "word": "勝ちました",
+        "count": -24645,
         "cat": "tech",
         "trend": "up",
-        "rank": 19,
+        "rank": 20,
         "originalEng": "german",
         "quality": "meaningful"
       },
       {
-        "word": "政治",
-        "count": -25532,
+        "word": "首相",
+        "count": -29904,
+        "cat": "social",
+        "trend": "down",
+        "rank": 21,
+        "originalEng": "chancellor",
+        "quality": "meaningful"
+      },
+      {
+        "word": "誓い",
+        "count": -32162,
         "cat": "econ",
         "trend": "down",
-        "rank": 20,
-        "originalEng": "politics",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ファイサル",
-        "count": -28428,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 21,
-        "originalEng": "faisal",
-        "quality": "meaningful"
-      },
-      {
-        "word": "イスラム教",
-        "count": -33879,
-        "cat": "tech",
-        "trend": "up",
         "rank": 22,
-        "originalEng": "islam",
+        "originalEng": "vows",
         "quality": "meaningful"
       },
       {
-        "word": "首相",
-        "count": -36321,
+        "word": "オフィス",
+        "count": -37459,
         "cat": "geo",
         "trend": "up",
         "rank": 23,
-        "originalEng": "chancellors",
+        "originalEng": "office",
         "quality": "meaningful"
       },
       {
-        "word": "試み",
-        "count": -41022,
-        "cat": "tech",
+        "word": "にもかかわらず",
+        "count": -40440,
+        "cat": "geo",
         "trend": "up",
         "rank": 24,
-        "originalEng": "attempts",
+        "originalEng": "despite",
         "quality": "meaningful"
       },
       {
-        "word": "ブースト",
-        "count": -45058,
+        "word": "衛星",
+        "count": -44426,
         "cat": "social",
         "trend": "down",
         "rank": 25,
-        "originalEng": "boost",
+        "originalEng": "afd",
         "quality": "meaningful"
       },
       {
-        "word": "雰囲気",
-        "count": -49324,
+        "word": "勝利",
+        "count": -49108,
         "cat": "econ",
         "trend": "down",
         "rank": 26,
-        "originalEng": "vibes",
+        "originalEng": "triumph",
         "quality": "meaningful"
       },
       {
-        "word": "限界",
-        "count": -53719,
-        "cat": "social",
+        "word": "状態",
+        "count": -53728,
+        "cat": "econ",
         "trend": "down",
         "rank": 27,
-        "originalEng": "limit",
+        "originalEng": "state",
         "quality": "meaningful"
       },
       {
-        "word": "税金",
-        "count": -56170,
+        "word": "選挙",
+        "count": -56500,
         "cat": "social",
         "trend": "down",
         "rank": 28,
-        "originalEng": "tax",
+        "originalEng": "election",
         "quality": "meaningful"
       },
       {
-        "word": "上昇します",
-        "count": -60471,
+        "word": "レトリック",
+        "count": -61592,
         "cat": "tech",
         "trend": "up",
         "rank": 29,
-        "originalEng": "rises",
+        "originalEng": "rhetoric",
         "quality": "meaningful"
       },
       {
-        "word": "4",
-        "count": -65851,
-        "cat": "tech",
-        "trend": "up",
+        "word": "異なります",
+        "count": -65575,
+        "cat": "econ",
+        "trend": "down",
         "rank": 30,
-        "originalEng": "four",
+        "originalEng": "differs",
         "quality": "meaningful"
       }
     ]
@@ -837,7 +837,7 @@
     "trends": [
       {
         "word": "選挙",
-        "count": 51365,
+        "count": 51858,
         "cat": "social",
         "trend": "down",
         "rank": 1,
@@ -845,8 +845,8 @@
         "quality": "meaningful"
       },
       {
-        "word": "仕事",
-        "count": 47260,
+        "word": "サクソンヤンハルト",
+        "count": 46857,
         "cat": "tech",
         "trend": "up",
         "rank": 2,
@@ -854,255 +854,255 @@
         "quality": "meaningful"
       },
       {
-        "word": "メルツ",
-        "count": 42717,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 3,
-        "originalEng": "merz",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ジークムント",
-        "count": 38266,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 4,
-        "originalEng": "siegmund",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ドイツ",
-        "count": 35794,
-        "cat": "social",
-        "trend": "down",
-        "rank": 5,
-        "originalEng": "afd",
-        "quality": "meaningful"
-      },
-      {
-        "word": "操作",
-        "count": 31760,
-        "cat": "social",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "operation",
-        "quality": "meaningful"
-      },
-      {
         "word": "状態",
-        "count": 27735,
+        "count": 42072,
         "cat": "econ",
         "trend": "down",
-        "rank": 7,
+        "rank": 3,
         "originalEng": "state",
         "quality": "meaningful"
       },
       {
-        "word": "ロケット",
-        "count": 23056,
+        "word": "勝ちました",
+        "count": 39182,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 4,
+        "originalEng": "german",
+        "quality": "meaningful"
+      },
+      {
+        "word": "年齢",
+        "count": 34404,
+        "cat": "social",
+        "trend": "down",
+        "rank": 5,
+        "originalEng": "age",
+        "quality": "meaningful"
+      },
+      {
+        "word": "衛星",
+        "count": 30382,
+        "cat": "social",
+        "trend": "down",
+        "rank": 6,
+        "originalEng": "afd",
+        "quality": "meaningful"
+      },
+      {
+        "word": "欲しい",
+        "count": 27947,
+        "cat": "social",
+        "trend": "down",
+        "rank": 7,
+        "originalEng": "wants",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "ティッカー",
+        "count": 22796,
         "cat": "tech",
         "trend": "up",
         "rank": 8,
+        "originalEng": "ticker",
+        "quality": "meaningful"
+      },
+      {
+        "word": "操作",
+        "count": 19894,
+        "cat": "social",
+        "trend": "down",
+        "rank": 9,
+        "originalEng": "operation",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ベルリン",
+        "count": 15650,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 10,
+        "originalEng": "berlin",
+        "quality": "meaningful"
+      },
+      {
+        "word": "北",
+        "count": 10249,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 11,
+        "originalEng": "north",
+        "quality": "meaningful"
+      },
+      {
+        "word": "戦争",
+        "count": 6004,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 12,
+        "originalEng": "war",
+        "quality": "meaningful"
+      },
+      {
+        "word": "死んだ",
+        "count": 2088,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 13,
+        "originalEng": "dead",
+        "quality": "meaningful"
+      },
+      {
+        "word": "仕事",
+        "count": -1303,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 14,
         "originalEng": "jobs",
         "quality": "meaningful"
       },
       {
-        "word": "終わり",
-        "count": 18951,
-        "cat": "social",
-        "trend": "down",
-        "rank": 9,
-        "originalEng": "end",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "銀行",
-        "count": 15670,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 10,
-        "originalEng": "bank",
-        "quality": "meaningful"
-      },
-      {
-        "word": "バッテリー",
-        "count": 10288,
-        "cat": "social",
-        "trend": "down",
-        "rank": 11,
-        "originalEng": "battery",
-        "quality": "meaningful"
-      },
-      {
-        "word": "肥満",
-        "count": 6054,
-        "cat": "social",
-        "trend": "down",
-        "rank": 12,
-        "originalEng": "obesity",
-        "quality": "meaningful"
-      },
-      {
-        "word": "すでに",
-        "count": 3053,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "already",
-        "quality": "meaningful"
-      },
-      {
-        "word": "始めました",
-        "count": -502,
-        "cat": "social",
-        "trend": "down",
-        "rank": 14,
-        "originalEng": "started",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "話す",
-        "count": -4568,
-        "cat": "social",
+        "word": "マーク",
+        "count": -4110,
+        "cat": "econ",
         "trend": "down",
         "rank": 15,
-        "originalEng": "talks",
+        "originalEng": "mark",
         "quality": "meaningful"
       },
       {
-        "word": "parties",
-        "count": -9172,
+        "word": "協力します",
+        "count": -8789,
         "cat": "geo",
         "trend": "up",
         "rank": 16,
-        "originalEng": "parties",
+        "originalEng": "cooperate",
+        "quality": "meaningful"
+      },
+      {
+        "word": "エロン",
+        "count": -13831,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 17,
+        "originalEng": "elon",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ムスク",
+        "count": -16275,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 18,
+        "originalEng": "musk",
         "quality": "meaningful"
       },
       {
         "word": "スプレッド",
-        "count": -12378,
+        "count": -21888,
         "cat": "social",
         "trend": "down",
-        "rank": 17,
+        "rank": 19,
         "originalEng": "spd",
         "quality": "meaningful"
       },
       {
         "word": "リーダー",
-        "count": -17006,
+        "count": -25278,
         "cat": "social",
         "trend": "down",
-        "rank": 18,
+        "rank": 20,
         "originalEng": "leader",
         "quality": "meaningful"
       },
       {
         "word": "低音",
-        "count": -20513,
+        "count": -28765,
         "cat": "geo",
         "trend": "up",
-        "rank": 19,
+        "rank": 21,
         "originalEng": "bas",
         "quality": "meaningful"
       },
       {
         "word": "非難する",
-        "count": -25868,
+        "count": -33768,
         "cat": "social",
         "trend": "down",
-        "rank": 20,
+        "rank": 22,
         "originalEng": "accuses",
         "quality": "meaningful"
       },
       {
+        "word": "メルツ",
+        "count": -37749,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 23,
+        "originalEng": "merz",
+        "quality": "meaningful"
+      },
+      {
         "word": "有害",
-        "count": -28146,
+        "count": -41614,
         "cat": "econ",
         "trend": "down",
-        "rank": 21,
+        "rank": 24,
         "originalEng": "harmful",
         "quality": "meaningful"
       },
       {
         "word": "レトリック",
-        "count": -33202,
+        "count": -45608,
         "cat": "tech",
         "trend": "up",
-        "rank": 22,
+        "rank": 25,
         "originalEng": "rhetoric",
         "quality": "meaningful"
       },
       {
-        "word": "ティッカー",
-        "count": -36921,
+        "word": "bsw",
+        "count": -48416,
         "cat": "tech",
-        "trend": "up",
-        "rank": 23,
-        "originalEng": "ticker",
-        "quality": "meaningful"
-      },
-      {
-        "word": "外国人",
-        "count": -41155,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 24,
-        "originalEng": "foreigners",
-        "quality": "meaningful"
-      },
-      {
-        "word": "どこでも",
-        "count": -45259,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 25,
-        "originalEng": "everywhere",
-        "quality": "meaningful"
-      },
-      {
-        "word": "学校",
-        "count": -48276,
-        "cat": "geo",
         "trend": "up",
         "rank": 26,
-        "originalEng": "school",
+        "originalEng": "bsw",
         "quality": "meaningful"
       },
       {
-        "word": "友達",
-        "count": -53446,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 27,
-        "originalEng": "friend",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ビール",
-        "count": -57506,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 28,
-        "originalEng": "beer",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ソーセージ",
-        "count": -61490,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 29,
-        "originalEng": "sausages",
-        "quality": "meaningful"
-      },
-      {
-        "word": "大規模",
-        "count": -65609,
+        "word": "少数派",
+        "count": -53482,
         "cat": "social",
         "trend": "down",
+        "rank": 27,
+        "originalEng": "minority",
+        "quality": "meaningful"
+      },
+      {
+        "word": "政府",
+        "count": -57430,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 28,
+        "originalEng": "government",
+        "quality": "meaningful"
+      },
+      {
+        "word": "英国EU離脱",
+        "count": -61243,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 29,
+        "originalEng": "brexit",
+        "quality": "meaningful"
+      },
+      {
+        "word": "瞬間",
+        "count": -64968,
+        "cat": "geo",
+        "trend": "up",
         "rank": 30,
-        "originalEng": "largescale",
+        "originalEng": "moment",
         "quality": "meaningful"
       }
     ]
@@ -1113,161 +1113,161 @@
     "score": 82,
     "trends": [
       {
-        "word": "インド",
-        "count": 51906,
-        "cat": "social",
-        "trend": "down",
-        "rank": 1,
-        "originalEng": "india",
-        "quality": "meaningful"
-      },
-      {
         "word": "デリー",
-        "count": 46879,
+        "count": 51217,
         "cat": "geo",
         "trend": "up",
-        "rank": 2,
+        "rank": 1,
         "originalEng": "delhi",
         "quality": "meaningful"
       },
       {
-        "word": "パワー",
-        "count": 42277,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 3,
-        "originalEng": "power",
-        "quality": "meaningful"
-      },
-      {
-        "word": "iphone",
-        "count": 38140,
-        "cat": "social",
-        "trend": "down",
-        "rank": 4,
-        "originalEng": "iphone",
-        "quality": "meaningful"
-      },
-      {
-        "word": "建物",
-        "count": 34425,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 5,
-        "originalEng": "building",
-        "quality": "meaningful"
-      },
-      {
         "word": "法廷",
-        "count": 31893,
+        "count": 46152,
         "cat": "social",
         "trend": "down",
-        "rank": 6,
+        "rank": 2,
         "originalEng": "court",
         "quality": "meaningful"
       },
       {
-        "word": "ストライキ",
-        "count": 26540,
+        "word": "科学者",
+        "count": 42056,
+        "cat": "social",
+        "trend": "down",
+        "rank": 3,
+        "originalEng": "scientists",
+        "quality": "meaningful"
+      },
+      {
+        "word": "襲撃",
+        "count": 38062,
+        "cat": "social",
+        "trend": "down",
+        "rank": 4,
+        "originalEng": "assault",
+        "quality": "meaningful"
+      },
+      {
+        "word": "状態",
+        "count": 35853,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 5,
+        "originalEng": "state",
+        "quality": "meaningful"
+      },
+      {
+        "word": "national",
+        "count": 30267,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 6,
+        "originalEng": "national",
+        "quality": "meaningful"
+      },
+      {
+        "word": "オフ",
+        "count": 26464,
         "cat": "social",
         "trend": "down",
         "rank": 7,
-        "originalEng": "strikes",
+        "originalEng": "off",
         "quality": "meaningful"
       },
       {
-        "word": "インド人",
-        "count": 23371,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 8,
-        "originalEng": "indian",
-        "quality": "meaningful"
-      },
-      {
-        "word": "行",
-        "count": 18127,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 9,
-        "originalEng": "line",
-        "quality": "meaningful"
-      },
-      {
-        "word": "戻る",
-        "count": 15913,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 10,
-        "originalEng": "return",
-        "quality": "meaningful"
-      },
-      {
-        "word": "オイル",
-        "count": 11822,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 11,
-        "originalEng": "oil",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ネパール",
-        "count": 6621,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 12,
-        "originalEng": "nepal",
-        "quality": "meaningful"
-      },
-      {
-        "word": "洪水",
-        "count": 3608,
+        "word": "インド",
+        "count": 23048,
         "cat": "social",
         "trend": "down",
-        "rank": 13,
-        "originalEng": "floods",
+        "rank": 8,
+        "originalEng": "india",
+        "quality": "meaningful"
+      },
+      {
+        "word": "西",
+        "count": 19054,
+        "cat": "social",
+        "trend": "down",
+        "rank": 9,
+        "originalEng": "west",
         "quality": "meaningful"
       },
       {
         "word": "アジア",
-        "count": -587,
+        "count": 15078,
         "cat": "tech",
         "trend": "up",
-        "rank": 14,
+        "rank": 10,
         "originalEng": "asia",
         "quality": "meaningful"
       },
       {
+        "word": "衝突",
+        "count": 11458,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 11,
+        "originalEng": "conflict",
+        "quality": "meaningful"
+      },
+      {
+        "word": "戦争",
+        "count": 7426,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 12,
+        "originalEng": "war",
+        "quality": "meaningful"
+      },
+      {
         "word": "かもしれません",
-        "count": -5379,
+        "count": 3149,
         "cat": "econ",
         "trend": "down",
-        "rank": 15,
+        "rank": 13,
         "originalEng": "may",
         "quality": "meaningful"
       },
       {
-        "word": "オフィス",
-        "count": -8248,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 16,
-        "originalEng": "office",
+        "word": "9月",
+        "count": -58,
+        "cat": "social",
+        "trend": "down",
+        "rank": 14,
+        "originalEng": "september",
         "quality": "meaningful"
       },
       {
-        "word": "株式",
-        "count": -12552,
+        "word": "パワー",
+        "count": -5818,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 15,
+        "originalEng": "power",
+        "quality": "meaningful"
+      },
+      {
+        "word": "気の利いた",
+        "count": -9131,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 16,
+        "originalEng": "nifty",
+        "quality": "meaningful"
+      },
+      {
+        "word": "記録",
+        "count": -12606,
         "cat": "social",
         "trend": "down",
         "rank": 17,
-        "originalEng": "stocks",
+        "originalEng": "iphone",
         "quality": "meaningful"
       },
       {
         "word": "プロ",
-        "count": -16761,
+        "count": -16103,
         "cat": "econ",
         "trend": "down",
         "rank": 18,
@@ -1276,7 +1276,7 @@
       },
       {
         "word": "暗い",
-        "count": -20197,
+        "count": -21256,
         "cat": "tech",
         "trend": "up",
         "rank": 19,
@@ -1284,17 +1284,17 @@
         "quality": "meaningful"
       },
       {
-        "word": "ラビ",
-        "count": -24555,
-        "cat": "tech",
-        "trend": "up",
+        "word": "見つける",
+        "count": -24689,
+        "cat": "econ",
+        "trend": "down",
         "rank": 20,
-        "originalEng": "ravi",
-        "quality": "meaningful"
+        "originalEng": "find",
+        "quality": "ambiguous"
       },
       {
         "word": "カーン",
-        "count": -28898,
+        "count": -28833,
         "cat": "tech",
         "trend": "up",
         "rank": 21,
@@ -1303,7 +1303,7 @@
       },
       {
         "word": "東",
-        "count": -33847,
+        "count": -32165,
         "cat": "econ",
         "trend": "down",
         "rank": 22,
@@ -1311,17 +1311,17 @@
         "quality": "meaningful"
       },
       {
-        "word": "科学者",
-        "count": -37085,
-        "cat": "social",
-        "trend": "down",
+        "word": "ポール",
+        "count": -36264,
+        "cat": "geo",
+        "trend": "up",
         "rank": 23,
-        "originalEng": "scientists",
+        "originalEng": "pole",
         "quality": "meaningful"
       },
       {
         "word": "健康",
-        "count": -40480,
+        "count": -41582,
         "cat": "geo",
         "trend": "up",
         "rank": 24,
@@ -1329,57 +1329,57 @@
         "quality": "meaningful"
       },
       {
-        "word": "崩壊",
-        "count": -45055,
-        "cat": "social",
-        "trend": "down",
-        "rank": 25,
-        "originalEng": "collapse",
-        "quality": "meaningful"
-      },
-      {
         "word": "6",
-        "count": -48634,
+        "count": -44782,
         "cat": "tech",
         "trend": "up",
-        "rank": 26,
+        "rank": 25,
         "originalEng": "six",
         "quality": "meaningful"
       },
       {
-        "word": "引っ張られた",
-        "count": -52983,
+        "word": "殺されました",
+        "count": -49866,
+        "cat": "social",
+        "trend": "down",
+        "rank": 26,
+        "originalEng": "killed",
+        "quality": "meaningful"
+      },
+      {
+        "word": "建物",
+        "count": -53241,
         "cat": "geo",
         "trend": "up",
         "rank": 27,
-        "originalEng": "pulled",
+        "originalEng": "building",
         "quality": "meaningful"
       },
       {
-        "word": "生きています",
-        "count": -56773,
-        "cat": "econ",
+        "word": "崩壊",
+        "count": -57945,
+        "cat": "social",
         "trend": "down",
         "rank": 28,
-        "originalEng": "alive",
+        "originalEng": "collapse",
         "quality": "meaningful"
       },
       {
-        "word": "瓦礫",
-        "count": -61007,
+        "word": "救助者",
+        "count": -60630,
         "cat": "geo",
         "trend": "up",
         "rank": 29,
-        "originalEng": "rubble",
+        "originalEng": "rescuers",
         "quality": "meaningful"
       },
       {
-        "word": "所有者",
-        "count": -64925,
-        "cat": "social",
-        "trend": "down",
+        "word": "検索",
+        "count": -64190,
+        "cat": "geo",
+        "trend": "up",
         "rank": 30,
-        "originalEng": "owner",
+        "originalEng": "search",
         "quality": "meaningful"
       }
     ]
@@ -1390,179 +1390,179 @@
     "score": 59,
     "trends": [
       {
-        "word": "戦争",
-        "count": 51311,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 1,
-        "originalEng": "war",
-        "quality": "meaningful"
-      },
-      {
-        "word": "フランス",
-        "count": 47537,
-        "cat": "econ",
+        "word": "欲しい",
+        "count": 50308,
+        "cat": "social",
         "trend": "down",
-        "rank": 2,
-        "originalEng": "france",
-        "quality": "meaningful"
+        "rank": 1,
+        "originalEng": "wants",
+        "quality": "ambiguous"
       },
       {
         "word": "フランス語",
-        "count": 42678,
+        "count": 47899,
         "cat": "tech",
         "trend": "up",
-        "rank": 3,
+        "rank": 2,
         "originalEng": "french",
         "quality": "meaningful"
       },
       {
-        "word": "真ん中",
-        "count": 39719,
+        "word": "健康",
+        "count": 42804,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 3,
+        "originalEng": "health",
+        "quality": "meaningful"
+      },
+      {
+        "word": "反対",
+        "count": 39613,
         "cat": "social",
         "trend": "down",
         "rank": 4,
-        "originalEng": "middle",
+        "originalEng": "against",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "取る",
+        "count": 35080,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 5,
+        "originalEng": "taking",
         "quality": "meaningful"
       },
       {
         "word": "学校",
-        "count": 35752,
+        "count": 30067,
         "cat": "geo",
         "trend": "up",
-        "rank": 5,
+        "rank": 6,
         "originalEng": "school",
         "quality": "meaningful"
       },
       {
-        "word": "価格",
-        "count": 30818,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "price",
-        "quality": "meaningful"
-      },
-      {
-        "word": "トライアル",
-        "count": 26391,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 7,
-        "originalEng": "trial",
-        "quality": "meaningful"
-      },
-      {
-        "word": "試してみました",
-        "count": 23625,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 8,
-        "originalEng": "tried",
-        "quality": "meaningful"
-      },
-      {
-        "word": "opens",
-        "count": 19270,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 9,
-        "originalEng": "opens",
-        "quality": "meaningful"
-      },
-      {
-        "word": "開きます兵士",
-        "count": 15136,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 10,
-        "originalEng": "soldier",
-        "quality": "meaningful"
-      },
-      {
-        "word": "パリ",
-        "count": 10540,
+        "word": "ルフィ",
+        "count": 26536,
         "cat": "social",
         "trend": "down",
-        "rank": 11,
-        "originalEng": "paris",
+        "rank": 7,
+        "originalEng": "lfi",
         "quality": "meaningful"
       },
       {
-        "word": "スタッフ",
-        "count": 7375,
+        "word": "禁止",
+        "count": 23177,
+        "cat": "social",
+        "trend": "down",
+        "rank": 8,
+        "originalEng": "ban",
+        "quality": "meaningful"
+      },
+      {
+        "word": "性的",
+        "count": 18536,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 9,
+        "originalEng": "sexual",
+        "quality": "meaningful"
+      },
+      {
+        "word": "私自身",
+        "count": 15293,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 10,
+        "originalEng": "myself",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ウクライナ",
+        "count": 11607,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 11,
+        "originalEng": "ukraine",
+        "quality": "meaningful"
+      },
+      {
+        "word": "戦争",
+        "count": 6344,
         "cat": "geo",
         "trend": "up",
         "rank": 12,
-        "originalEng": "staff",
+        "originalEng": "war",
         "quality": "meaningful"
       },
       {
-        "word": "開始",
-        "count": 3587,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "start",
-        "quality": "ambiguous"
-      },
-      {
         "word": "ダメ",
-        "count": -431,
+        "count": 3352,
         "cat": "econ",
         "trend": "down",
-        "rank": 14,
+        "rank": 13,
         "originalEng": "dont",
         "quality": "meaningful"
       },
       {
         "word": "団結",
-        "count": -5587,
+        "count": -1402,
         "cat": "econ",
         "trend": "down",
-        "rank": 15,
+        "rank": 14,
         "originalEng": "united",
         "quality": "meaningful"
       },
       {
         "word": "状態",
-        "count": -8018,
+        "count": -4045,
         "cat": "tech",
         "trend": "up",
-        "rank": 16,
+        "rank": 15,
         "originalEng": "states",
         "quality": "meaningful"
       },
       {
-        "word": "東",
-        "count": -13104,
+        "word": "続ける",
+        "count": -9521,
         "cat": "econ",
         "trend": "down",
-        "rank": 17,
-        "originalEng": "east",
-        "quality": "meaningful"
+        "rank": 16,
+        "originalEng": "continue",
+        "quality": "ambiguous"
       },
       {
-        "word": "トラック",
-        "count": -17261,
-        "cat": "social",
-        "trend": "down",
-        "rank": 18,
-        "originalEng": "track",
-        "quality": "meaningful"
-      },
-      {
-        "word": "明らかにします",
-        "count": -20124,
+        "word": "プラットフォーム",
+        "count": -13027,
         "cat": "geo",
         "trend": "up",
-        "rank": 19,
-        "originalEng": "unveils",
+        "rank": 17,
+        "originalEng": "platforms",
         "quality": "meaningful"
       },
       {
-        "word": "色",
-        "count": -24659,
+        "word": "販売",
+        "count": -16494,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 18,
+        "originalEng": "sales",
+        "quality": "meaningful"
+      },
+      {
+        "word": "価格",
+        "count": -21347,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 19,
+        "originalEng": "price",
+        "quality": "meaningful"
+      },
+      {
+        "word": "iphone",
+        "count": -24844,
         "cat": "econ",
         "trend": "down",
         "rank": 20,
@@ -1570,93 +1570,93 @@
         "quality": "meaningful"
       },
       {
-        "word": "折ります",
-        "count": -28294,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 21,
-        "originalEng": "fold",
-        "quality": "meaningful"
-      },
-      {
-        "word": "銀河",
-        "count": -33344,
-        "cat": "geo",
+        "word": "カップ",
+        "count": -28119,
+        "cat": "tech",
         "trend": "up",
-        "rank": 22,
-        "originalEng": "galaxy",
-        "quality": "meaningful"
-      },
-      {
-        "word": "挑戦",
-        "count": -36822,
-        "cat": "social",
-        "trend": "down",
-        "rank": 23,
-        "originalEng": "challenge",
+        "rank": 21,
+        "originalEng": "cup",
         "quality": "meaningful"
       },
       {
         "word": "地域",
-        "count": -40616,
+        "count": -33988,
         "cat": "econ",
         "trend": "down",
-        "rank": 24,
+        "rank": 22,
         "originalEng": "regional",
         "quality": "meaningful"
       },
       {
         "word": "選挙",
-        "count": -44507,
+        "count": -36942,
         "cat": "tech",
         "trend": "up",
-        "rank": 25,
+        "rank": 23,
         "originalEng": "elections",
         "quality": "meaningful"
       },
       {
         "word": "ドイツ",
-        "count": -48619,
+        "count": -41964,
         "cat": "econ",
         "trend": "down",
-        "rank": 26,
+        "rank": 24,
         "originalEng": "germany",
         "quality": "meaningful"
       },
       {
-        "word": "ドイツ",
-        "count": -53713,
-        "cat": "social",
-        "trend": "down",
-        "rank": 27,
-        "originalEng": "afd",
-        "quality": "meaningful"
-      },
-      {
         "word": "勝利",
-        "count": -56755,
+        "count": -44914,
         "cat": "tech",
         "trend": "up",
-        "rank": 28,
+        "rank": 25,
         "originalEng": "victory",
         "quality": "meaningful"
       },
       {
-        "word": "仕事",
-        "count": -61457,
+        "word": "衛星",
+        "count": -48484,
+        "cat": "social",
+        "trend": "down",
+        "rank": 26,
+        "originalEng": "afd",
+        "quality": "meaningful"
+      },
+      {
+        "word": "サクソンヤンハルト",
+        "count": -53850,
         "cat": "tech",
         "trend": "up",
-        "rank": 29,
+        "rank": 27,
         "originalEng": "saxonyanhalt",
         "quality": "meaningful"
       },
       {
-        "word": "スプレッド",
-        "count": -65708,
-        "cat": "social",
-        "trend": "down",
+        "word": "関連付け",
+        "count": -57744,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 28,
+        "originalEng": "associations",
+        "quality": "meaningful"
+      },
+      {
+        "word": "電話する",
+        "count": -61823,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 29,
+        "originalEng": "call",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "デモンストレーション",
+        "count": -65665,
+        "cat": "geo",
+        "trend": "up",
         "rank": 30,
-        "originalEng": "spd",
+        "originalEng": "demonstrations",
         "quality": "meaningful"
       }
     ]
@@ -1667,170 +1667,170 @@
     "score": 55,
     "trends": [
       {
-        "word": "明らかにします",
-        "count": 51166,
-        "cat": "tech",
+        "word": "労働",
+        "count": 51465,
+        "cat": "geo",
         "trend": "up",
         "rank": 1,
-        "originalEng": "reveals",
-        "quality": "meaningful"
-      },
-      {
-        "word": "オーストラリア",
-        "count": 47798,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 2,
-        "originalEng": "australias",
-        "quality": "meaningful"
-      },
-      {
-        "word": "オーストラリア",
-        "count": 43419,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 3,
-        "originalEng": "australia",
-        "quality": "meaningful"
-      },
-      {
-        "word": "アクセス",
-        "count": 38824,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 4,
-        "originalEng": "access",
-        "quality": "meaningful"
-      },
-      {
-        "word": "子供",
-        "count": 34593,
-        "cat": "social",
-        "trend": "down",
-        "rank": 5,
-        "originalEng": "children",
-        "quality": "meaningful"
-      },
-      {
-        "word": "偶数",
-        "count": 30496,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 6,
-        "originalEng": "even",
-        "quality": "meaningful"
-      },
-      {
-        "word": "百万",
-        "count": 27606,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 7,
-        "originalEng": "million",
-        "quality": "meaningful"
-      },
-      {
-        "word": "労働",
-        "count": 22917,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 8,
         "originalEng": "labor",
         "quality": "meaningful"
       },
       {
-        "word": "オフ",
-        "count": 18722,
+        "word": "ソーシャル",
+        "count": 46467,
         "cat": "social",
         "trend": "down",
-        "rank": 9,
-        "originalEng": "off",
+        "rank": 2,
+        "originalEng": "social",
         "quality": "meaningful"
       },
       {
-        "word": "世代",
-        "count": 15827,
+        "word": "子供",
+        "count": 42994,
+        "cat": "social",
+        "trend": "down",
+        "rank": 3,
+        "originalEng": "children",
+        "quality": "meaningful"
+      },
+      {
+        "word": "オーストラリア",
+        "count": 38879,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 4,
+        "originalEng": "australias",
+        "quality": "meaningful"
+      },
+      {
+        "word": "かもしれません",
+        "count": 35850,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 5,
+        "originalEng": "may",
+        "quality": "meaningful"
+      },
+      {
+        "word": "政治的",
+        "count": 31146,
+        "cat": "social",
+        "trend": "down",
+        "rank": 6,
+        "originalEng": "political",
+        "quality": "meaningful"
+      },
+      {
+        "word": "恐怖",
+        "count": 26040,
+        "cat": "social",
+        "trend": "down",
+        "rank": 7,
+        "originalEng": "fears",
+        "quality": "meaningful"
+      },
+      {
+        "word": "変更",
+        "count": 22596,
         "cat": "geo",
         "trend": "up",
-        "rank": 10,
-        "originalEng": "gen",
+        "rank": 8,
+        "originalEng": "change",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "メディア",
+        "count": 19951,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 9,
+        "originalEng": "media",
         "quality": "meaningful"
       },
       {
-        "word": "戻る",
-        "count": 11553,
+        "word": "来る",
+        "count": 15034,
         "cat": "social",
         "trend": "down",
-        "rank": 11,
-        "originalEng": "back",
+        "rank": 10,
+        "originalEng": "coming",
         "quality": "meaningful"
       },
       {
-        "word": "5",
-        "count": 7390,
+        "word": "業界",
+        "count": 11247,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 11,
+        "originalEng": "industry",
+        "quality": "meaningful"
+      },
+      {
+        "word": "必要です",
+        "count": 6341,
         "cat": "tech",
         "trend": "up",
         "rank": 12,
-        "originalEng": "five",
-        "quality": "meaningful"
-      },
-      {
-        "word": "インドネシア",
-        "count": 3757,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "indonesia",
-        "quality": "meaningful"
-      },
-      {
-        "word": "価格",
-        "count": -360,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 14,
-        "originalEng": "prices",
-        "quality": "meaningful"
+        "originalEng": "need",
+        "quality": "ambiguous"
       },
       {
         "word": "確認されました",
-        "count": -4135,
+        "count": 3551,
         "cat": "econ",
         "trend": "down",
-        "rank": 15,
+        "rank": 13,
         "originalEng": "confirmed",
         "quality": "meaningful"
       },
       {
+        "word": "深い",
+        "count": -906,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 14,
+        "originalEng": "deep",
+        "quality": "meaningful"
+      },
+      {
         "word": "ネットワーク",
-        "count": -8336,
+        "count": -4363,
         "cat": "tech",
         "trend": "up",
-        "rank": 16,
+        "rank": 15,
         "originalEng": "network",
         "quality": "meaningful"
       },
       {
-        "word": "国家",
-        "count": -12432,
+        "word": "大きい",
+        "count": -9602,
         "cat": "geo",
         "trend": "up",
-        "rank": 17,
-        "originalEng": "nations",
+        "rank": 16,
+        "originalEng": "big",
         "quality": "meaningful"
       },
       {
-        "word": "早い",
-        "count": -17221,
+        "word": "悲惨な",
+        "count": -12930,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 17,
+        "originalEng": "disastrous",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ポーリン",
+        "count": -17160,
         "cat": "social",
         "trend": "down",
         "rank": 18,
-        "originalEng": "early",
+        "originalEng": "paulines",
         "quality": "meaningful"
       },
       {
         "word": "スーパー",
-        "count": -21470,
+        "count": -21797,
         "cat": "social",
         "trend": "down",
         "rank": 19,
@@ -1838,102 +1838,102 @@
         "quality": "meaningful"
       },
       {
-        "word": "スキーム",
-        "count": -25818,
-        "cat": "social",
+        "word": "計画",
+        "count": -25750,
+        "cat": "econ",
         "trend": "down",
         "rank": 20,
-        "originalEng": "scheme",
+        "originalEng": "plan",
         "quality": "meaningful"
       },
       {
-        "word": "パン",
-        "count": -29029,
+        "word": "明らかになった",
+        "count": -29671,
         "cat": "geo",
         "trend": "up",
         "rank": 21,
-        "originalEng": "panned",
-        "quality": "meaningful"
-      },
-      {
-        "word": "インフレ",
-        "count": -32570,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 22,
-        "originalEng": "inflationary",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ボギー台車",
-        "count": -36229,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 23,
-        "originalEng": "bogie",
-        "quality": "meaningful"
-      },
-      {
-        "word": "トリプル",
-        "count": -40883,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 24,
-        "originalEng": "triple",
-        "quality": "meaningful"
-      },
-      {
-        "word": "キラー",
-        "count": -45184,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 25,
-        "originalEng": "killer",
-        "quality": "meaningful"
-      },
-      {
-        "word": "gets",
-        "count": -49151,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 26,
-        "originalEng": "gets",
-        "quality": "meaningful"
-      },
-      {
-        "word": "を取得します仮釈放",
-        "count": -53524,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 27,
-        "originalEng": "parole",
-        "quality": "meaningful"
-      },
-      {
-        "word": "実行中",
-        "count": -57742,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 28,
-        "originalEng": "executing",
-        "quality": "meaningful"
-      },
-      {
-        "word": "隣人",
-        "count": -61553,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 29,
-        "originalEng": "neighbours",
+        "originalEng": "revealed",
         "quality": "meaningful"
       },
       {
         "word": "守る",
-        "count": -65571,
+        "count": -33965,
         "cat": "econ",
         "trend": "down",
-        "rank": 30,
+        "rank": 22,
         "originalEng": "protect",
+        "quality": "meaningful"
+      },
+      {
+        "word": "校長",
+        "count": -37258,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 23,
+        "originalEng": "principal",
+        "quality": "meaningful"
+      },
+      {
+        "word": "opens",
+        "count": -40161,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 24,
+        "originalEng": "opens",
+        "quality": "meaningful"
+      },
+      {
+        "word": "開きます拒否",
+        "count": -44910,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 25,
+        "originalEng": "refusal",
+        "quality": "meaningful"
+      },
+      {
+        "word": "参加します",
+        "count": -48713,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 26,
+        "originalEng": "participate",
+        "quality": "meaningful"
+      },
+      {
+        "word": "lgbt",
+        "count": -52680,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 27,
+        "originalEng": "lgbt",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ロケット",
+        "count": -57446,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 28,
+        "originalEng": "event",
+        "quality": "meaningful"
+      },
+      {
+        "word": "学校",
+        "count": -60373,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 29,
+        "originalEng": "school",
+        "quality": "meaningful"
+      },
+      {
+        "word": "終わります",
+        "count": -64619,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 30,
+        "originalEng": "ends",
         "quality": "meaningful"
       }
     ]
@@ -1945,7 +1945,7 @@
     "trends": [
       {
         "word": "キム",
-        "count": 50374,
+        "count": 51227,
         "cat": "social",
         "trend": "down",
         "rank": 1,
@@ -1953,179 +1953,179 @@
         "quality": "meaningful"
       },
       {
-        "word": "肝臓",
-        "count": 47851,
-        "cat": "tech",
+        "word": "リー",
+        "count": 46967,
+        "cat": "geo",
         "trend": "up",
         "rank": 2,
-        "originalEng": "liver",
-        "quality": "meaningful"
-      },
-      {
-        "word": "薬",
-        "count": 42851,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 3,
-        "originalEng": "drug",
-        "quality": "meaningful"
-      },
-      {
-        "word": "補足",
-        "count": 38886,
-        "cat": "social",
-        "trend": "down",
-        "rank": 4,
-        "originalEng": "supplementary",
-        "quality": "meaningful"
-      },
-      {
-        "word": "調査",
-        "count": 35224,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 5,
-        "originalEng": "investigation",
-        "quality": "meaningful"
-      },
-      {
-        "word": "候補者",
-        "count": 30368,
-        "cat": "social",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "candidate",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ガス",
-        "count": 26400,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 7,
-        "originalEng": "gas",
-        "quality": "meaningful"
-      },
-      {
-        "word": "逮捕",
-        "count": 22934,
-        "cat": "social",
-        "trend": "down",
-        "rank": 8,
-        "originalEng": "arrest",
-        "quality": "meaningful"
-      },
-      {
-        "word": "期限",
-        "count": 18432,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 9,
-        "originalEng": "due",
-        "quality": "meaningful"
-      },
-      {
-        "word": "アン",
-        "count": 14485,
-        "cat": "social",
-        "trend": "down",
-        "rank": 10,
-        "originalEng": "ahn",
-        "quality": "meaningful"
-      },
-      {
-        "word": "セヨン",
-        "count": 11170,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 11,
-        "originalEng": "seyoung",
-        "quality": "meaningful"
-      },
-      {
-        "word": "リー",
-        "count": 6747,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 12,
         "originalEng": "lee",
         "quality": "meaningful"
       },
       {
-        "word": "ドンフン",
-        "count": 2853,
+        "word": "反対",
+        "count": 43916,
+        "cat": "social",
+        "trend": "down",
+        "rank": 3,
+        "originalEng": "against",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "アン",
+        "count": 38003,
+        "cat": "social",
+        "trend": "down",
+        "rank": 4,
+        "originalEng": "ahn",
+        "quality": "meaningful"
+      },
+      {
+        "word": "治療",
+        "count": 35295,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 5,
+        "originalEng": "treatment",
+        "quality": "meaningful"
+      },
+      {
+        "word": "社長",
+        "count": 31864,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 6,
+        "originalEng": "president",
+        "quality": "meaningful"
+      },
+      {
+        "word": "オフィス",
+        "count": 27902,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 7,
+        "originalEng": "office",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ジョン",
+        "count": 23048,
         "cat": "tech",
         "trend": "up",
-        "rank": 13,
-        "originalEng": "donghoon",
+        "rank": 8,
+        "originalEng": "jeon",
         "quality": "meaningful"
       },
       {
-        "word": "ハン",
-        "count": -161,
+        "word": "ドヨン",
+        "count": 18545,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 9,
+        "originalEng": "doyeon",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ネパール",
+        "count": 15604,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 10,
+        "originalEng": "nepal",
+        "quality": "meaningful"
+      },
+      {
+        "word": "見つかりました",
+        "count": 11778,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 11,
+        "originalEng": "found",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "プーチン",
+        "count": 7845,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 12,
+        "originalEng": "putin",
+        "quality": "meaningful"
+      },
+      {
+        "word": "かもしれません",
+        "count": 3206,
         "cat": "econ",
         "trend": "down",
-        "rank": 14,
-        "originalEng": "han",
+        "rank": 13,
+        "originalEng": "may",
         "quality": "meaningful"
       },
       {
-        "word": "ロビー",
-        "count": -4352,
+        "word": "価格",
+        "count": -466,
         "cat": "tech",
+        "trend": "up",
+        "rank": 14,
+        "originalEng": "trump",
+        "quality": "meaningful"
+      },
+      {
+        "word": "百万",
+        "count": -4812,
+        "cat": "geo",
         "trend": "up",
         "rank": 15,
-        "originalEng": "lobby",
+        "originalEng": "million",
         "quality": "meaningful"
       },
       {
-        "word": "民主的な",
-        "count": -9668,
-        "cat": "econ",
-        "trend": "down",
+        "word": "アジア人",
+        "count": -8681,
+        "cat": "geo",
+        "trend": "up",
         "rank": 16,
-        "originalEng": "democratic",
+        "originalEng": "asian",
         "quality": "meaningful"
       },
       {
-        "word": "パーティー",
-        "count": -13855,
+        "word": "セヨン",
+        "count": -12349,
         "cat": "tech",
         "trend": "up",
         "rank": 17,
-        "originalEng": "party",
+        "originalEng": "seyoung",
         "quality": "meaningful"
       },
       {
-        "word": "兄弟",
-        "count": -16086,
-        "cat": "social",
-        "trend": "down",
+        "word": "警察",
+        "count": -17975,
+        "cat": "tech",
+        "trend": "up",
         "rank": 18,
-        "originalEng": "brothers",
+        "originalEng": "police",
         "quality": "meaningful"
       },
       {
-        "word": "ゲート",
-        "count": -20457,
-        "cat": "social",
-        "trend": "down",
-        "rank": 19,
-        "originalEng": "gate",
-        "quality": "meaningful"
-      },
-      {
-        "word": "次の",
-        "count": -24271,
+        "word": "考慮中",
+        "count": -20351,
         "cat": "econ",
         "trend": "down",
+        "rank": 19,
+        "originalEng": "considering",
+        "quality": "meaningful"
+      },
+      {
+        "word": "分布",
+        "count": -24475,
+        "cat": "geo",
+        "trend": "up",
         "rank": 20,
-        "originalEng": "following",
+        "originalEng": "distribution",
         "quality": "meaningful"
       },
       {
         "word": "スンウォン",
-        "count": -28570,
+        "count": -28396,
         "cat": "tech",
         "trend": "up",
         "rank": 21,
@@ -2133,84 +2133,84 @@
         "quality": "meaningful"
       },
       {
-        "word": "録音",
-        "count": -33397,
-        "cat": "econ",
-        "trend": "down",
+        "word": "告発",
+        "count": -32366,
+        "cat": "tech",
+        "trend": "up",
         "rank": 22,
-        "originalEng": "recording",
+        "originalEng": "accusation",
         "quality": "meaningful"
       },
       {
-        "word": "チョイ",
-        "count": -36690,
-        "cat": "social",
-        "trend": "down",
+        "word": "場合",
+        "count": -36856,
+        "cat": "geo",
+        "trend": "up",
         "rank": 23,
-        "originalEng": "choi",
-        "quality": "meaningful"
+        "originalEng": "case",
+        "quality": "ambiguous"
       },
       {
-        "word": "ジェソン",
-        "count": -40312,
+        "word": "大都市",
+        "count": -40761,
         "cat": "geo",
         "trend": "up",
         "rank": 24,
-        "originalEng": "jaeseong",
+        "originalEng": "metropolitan",
         "quality": "meaningful"
       },
       {
-        "word": "政府",
-        "count": -45699,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 25,
-        "originalEng": "government",
-        "quality": "meaningful"
-      },
-      {
-        "word": "計画",
-        "count": -49136,
+        "word": "調査",
+        "count": -45011,
         "cat": "tech",
         "trend": "up",
-        "rank": 26,
-        "originalEng": "plans",
+        "rank": 25,
+        "originalEng": "investigation",
         "quality": "meaningful"
       },
       {
-        "word": "リモート",
-        "count": -53100,
-        "cat": "tech",
+        "word": "チーム",
+        "count": -48877,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 26,
+        "originalEng": "team",
+        "quality": "meaningful"
+      },
+      {
+        "word": "充電",
+        "count": -53315,
+        "cat": "geo",
         "trend": "up",
         "rank": 27,
-        "originalEng": "remote",
-        "quality": "meaningful"
+        "originalEng": "charge",
+        "quality": "ambiguous"
       },
       {
-        "word": "サポート",
-        "count": -57575,
-        "cat": "econ",
-        "trend": "down",
+        "word": "指名します",
+        "count": -56321,
+        "cat": "tech",
+        "trend": "up",
         "rank": 28,
-        "originalEng": "support",
+        "originalEng": "nominates",
         "quality": "meaningful"
       },
       {
-        "word": "チョンヘ",
-        "count": -61103,
+        "word": "弁護士",
+        "count": -61548,
         "cat": "geo",
         "trend": "up",
         "rank": 29,
-        "originalEng": "cheonghae",
+        "originalEng": "lawyer",
         "quality": "meaningful"
       },
       {
-        "word": "単位",
-        "count": -65451,
-        "cat": "geo",
+        "word": "ジヨン",
+        "count": -64065,
+        "cat": "tech",
         "trend": "up",
         "rank": 30,
-        "originalEng": "unit",
+        "originalEng": "jiyong",
         "quality": "meaningful"
       }
     ]
@@ -2221,273 +2221,273 @@
     "score": 52,
     "trends": [
       {
-        "word": "ルラ",
-        "count": 51138,
-        "cat": "tech",
-        "trend": "up",
+        "word": "ロック",
+        "count": 50645,
+        "cat": "econ",
+        "trend": "down",
         "rank": 1,
-        "originalEng": "lula",
+        "originalEng": "rock",
         "quality": "meaningful"
       },
       {
-        "word": "9月",
-        "count": 47384,
-        "cat": "social",
-        "trend": "down",
+        "word": "リオ",
+        "count": 46169,
+        "cat": "geo",
+        "trend": "up",
         "rank": 2,
-        "originalEng": "september",
-        "quality": "meaningful"
-      },
-      {
-        "word": "stf",
-        "count": 43628,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 3,
-        "originalEng": "stf",
-        "quality": "meaningful"
-      },
-      {
-        "word": "モラエス",
-        "count": 38142,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 4,
-        "originalEng": "moraes",
-        "quality": "meaningful"
-      },
-      {
-        "word": "千",
-        "count": 35412,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 5,
-        "originalEng": "thousand",
-        "quality": "meaningful"
-      },
-      {
-        "word": "パレード",
-        "count": 31494,
-        "cat": "social",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "parade",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ファチン",
-        "count": 27949,
-        "cat": "social",
-        "trend": "down",
-        "rank": 7,
-        "originalEng": "fachin",
-        "quality": "meaningful"
-      },
-      {
-        "word": "危機",
-        "count": 22855,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 8,
-        "originalEng": "crisis",
-        "quality": "meaningful"
-      },
-      {
-        "word": "メンドナ",
-        "count": 18924,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 9,
-        "originalEng": "mendona",
-        "quality": "meaningful"
-      },
-      {
-        "word": "フォーム",
-        "count": 15623,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 10,
-        "originalEng": "form",
-        "quality": "meaningful"
-      },
-      {
-        "word": "パウリスタ",
-        "count": 11371,
-        "cat": "social",
-        "trend": "down",
-        "rank": 11,
-        "originalEng": "paulista",
-        "quality": "meaningful"
-      },
-      {
-        "word": "後ろ",
-        "count": 6507,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 12,
-        "originalEng": "behind",
-        "quality": "meaningful"
-      },
-      {
-        "word": "休日",
-        "count": 3336,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "holiday",
-        "quality": "meaningful"
-      },
-      {
-        "word": "雨",
-        "count": -333,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 14,
-        "originalEng": "rain",
-        "quality": "meaningful"
-      },
-      {
-        "word": "国",
-        "count": -4450,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 15,
-        "originalEng": "countries",
+        "originalEng": "rio",
         "quality": "meaningful"
       },
       {
         "word": "see",
-        "count": -8334,
+        "count": 43314,
         "cat": "social",
         "trend": "down",
-        "rank": 16,
+        "rank": 3,
         "originalEng": "see",
         "quality": "ambiguous"
       },
       {
-        "word": "を参照してください。断片",
-        "count": -12779,
+        "word": "を参照してください。アンドレ",
+        "count": 39214,
         "cat": "social",
         "trend": "down",
-        "rank": 17,
-        "originalEng": "fragments",
+        "rank": 4,
+        "originalEng": "andr",
         "quality": "meaningful"
       },
       {
-        "word": "前者",
-        "count": -17524,
+        "word": "メンドナ",
+        "count": 34094,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 5,
+        "originalEng": "mendona",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ロケット",
+        "count": 31997,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 6,
+        "originalEng": "event",
+        "quality": "meaningful"
+      },
+      {
+        "word": "パウリスタ",
+        "count": 27453,
         "cat": "social",
         "trend": "down",
-        "rank": 18,
-        "originalEng": "former",
+        "rank": 7,
+        "originalEng": "paulista",
+        "quality": "meaningful"
+      },
+      {
+        "word": "9月",
+        "count": 22981,
+        "cat": "social",
+        "trend": "down",
+        "rank": 8,
+        "originalEng": "september",
+        "quality": "meaningful"
+      },
+      {
+        "word": "岩",
+        "count": 19074,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 9,
+        "originalEng": "rocks",
+        "quality": "meaningful"
+      },
+      {
+        "word": "becomes",
+        "count": 14707,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 10,
+        "originalEng": "becomes",
         "quality": "ambiguous"
       },
       {
-        "word": "変化",
-        "count": -21184,
+        "word": "になります後ろ",
+        "count": 10829,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 11,
+        "originalEng": "behind",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ストリーマー",
+        "count": 7346,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 12,
+        "originalEng": "streamer",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ジャンプ",
+        "count": 3896,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 13,
+        "originalEng": "jumping",
+        "quality": "meaningful"
+      },
+      {
+        "word": "一緒に",
+        "count": -552,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 14,
+        "originalEng": "together",
+        "quality": "meaningful"
+      },
+      {
+        "word": "独立性",
+        "count": -4121,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 15,
+        "originalEng": "independence",
+        "quality": "meaningful"
+      },
+      {
+        "word": "価格",
+        "count": -9737,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 16,
+        "originalEng": "trump",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ブラジル人",
+        "count": -13656,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 17,
+        "originalEng": "brazilian",
+        "quality": "meaningful"
+      },
+      {
+        "word": "わかります",
+        "count": -16975,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 18,
+        "originalEng": "understand",
+        "quality": "meaningful"
+      },
+      {
+        "word": "シャオミ",
+        "count": -21408,
         "cat": "social",
         "trend": "down",
         "rank": 19,
-        "originalEng": "changes",
-        "quality": "ambiguous"
+        "originalEng": "foldable",
+        "quality": "meaningful"
       },
       {
-        "word": "参加します",
-        "count": -24075,
+        "word": "記録",
+        "count": -24803,
         "cat": "social",
         "trend": "down",
         "rank": 20,
-        "originalEng": "participates",
+        "originalEng": "iphone",
         "quality": "meaningful"
       },
       {
-        "word": "モッタ",
-        "count": -29748,
-        "cat": "social",
-        "trend": "down",
-        "rank": 21,
-        "originalEng": "motta",
-        "quality": "meaningful"
-      },
-      {
-        "word": "アルコルンブレ",
-        "count": -33112,
+        "word": "デビュー",
+        "count": -29687,
         "cat": "geo",
         "trend": "up",
-        "rank": 22,
-        "originalEng": "alcolumbre",
+        "rank": 21,
+        "originalEng": "debut",
         "quality": "meaningful"
       },
       {
-        "word": "翼",
-        "count": -36343,
+        "word": "フラメンゴ",
+        "count": -33594,
         "cat": "social",
         "trend": "down",
-        "rank": 23,
-        "originalEng": "wing",
+        "rank": 22,
+        "originalEng": "flamengo",
         "quality": "meaningful"
       },
       {
-        "word": "最も近い",
-        "count": -40496,
-        "cat": "econ",
+        "word": "パルメイラス",
+        "count": -37777,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 23,
+        "originalEng": "palmeiras",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ボタフォゴ",
+        "count": -40595,
+        "cat": "social",
         "trend": "down",
         "rank": 24,
-        "originalEng": "closest",
+        "originalEng": "botafogo",
         "quality": "meaningful"
       },
       {
-        "word": "社長",
-        "count": -44914,
+        "word": "がん",
+        "count": -45901,
         "cat": "geo",
         "trend": "up",
         "rank": 25,
-        "originalEng": "president",
+        "originalEng": "cancer",
         "quality": "meaningful"
       },
       {
-        "word": "欠落しています",
-        "count": -49836,
-        "cat": "tech",
+        "word": "リカルド",
+        "count": -49555,
+        "cat": "geo",
         "trend": "up",
         "rank": 26,
-        "originalEng": "missing",
+        "originalEng": "ricardo",
         "quality": "meaningful"
       },
       {
-        "word": "待っています",
-        "count": -53974,
-        "cat": "social",
+        "word": "ヌネス",
+        "count": -52211,
+        "cat": "econ",
         "trend": "down",
         "rank": 27,
-        "originalEng": "awaits",
+        "originalEng": "nunes",
         "quality": "meaningful"
       },
       {
-        "word": "説明",
-        "count": -57941,
-        "cat": "tech",
-        "trend": "up",
+        "word": "配布します",
+        "count": -57695,
+        "cat": "social",
+        "trend": "down",
         "rank": 28,
-        "originalEng": "explanations",
+        "originalEng": "distribute",
         "quality": "meaningful"
       },
       {
-        "word": "選挙",
-        "count": -61507,
+        "word": "シャツ",
+        "count": -61027,
         "cat": "social",
         "trend": "down",
         "rank": 29,
-        "originalEng": "election",
+        "originalEng": "shirts",
         "quality": "meaningful"
       },
       {
-        "word": "ドイツ",
-        "count": -65274,
+        "word": "サポート",
+        "count": -65202,
         "cat": "econ",
         "trend": "down",
         "rank": 30,
-        "originalEng": "germany",
+        "originalEng": "support",
         "quality": "meaningful"
       }
     ]
@@ -2499,7 +2499,7 @@
     "trends": [
       {
         "word": "労働",
-        "count": 51776,
+        "count": 50966,
         "cat": "econ",
         "trend": "down",
         "rank": 1,
@@ -2507,264 +2507,264 @@
         "quality": "meaningful"
       },
       {
-        "word": "カナダ",
-        "count": 47962,
+        "word": "calls",
+        "count": 46322,
         "cat": "econ",
         "trend": "down",
         "rank": 2,
-        "originalEng": "canadas",
-        "quality": "meaningful"
-      },
-      {
-        "word": "takes",
-        "count": 43093,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 3,
-        "originalEng": "takes",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "かかりますダウン",
-        "count": 38742,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 4,
-        "originalEng": "down",
-        "quality": "meaningful"
-      },
-      {
-        "word": "クラシック",
-        "count": 35529,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 5,
-        "originalEng": "classic",
-        "quality": "meaningful"
-      },
-      {
-        "word": "AFD",
-        "count": 30745,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 6,
         "originalEng": "calls",
         "quality": "ambiguous"
       },
       {
-        "word": "トロント",
-        "count": 26986,
-        "cat": "social",
+        "word": "を呼び出します",
+        "count": 42281,
+        "cat": "econ",
         "trend": "down",
-        "rank": 7,
-        "originalEng": "toronto",
+        "rank": 3,
+        "originalEng": "declares",
         "quality": "meaningful"
       },
       {
-        "word": "ジェット",
-        "count": 22101,
+        "word": "宣言します役職",
+        "count": 39778,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 4,
+        "originalEng": "post",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ダウン",
+        "count": 35001,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 5,
+        "originalEng": "down",
+        "quality": "meaningful"
+      },
+      {
+        "word": "反関税",
+        "count": 30660,
+        "cat": "social",
+        "trend": "down",
+        "rank": 6,
+        "originalEng": "countertariffs",
+        "quality": "meaningful"
+      },
+      {
+        "word": "開く",
+        "count": 27662,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 7,
+        "originalEng": "open",
+        "quality": "meaningful"
+      },
+      {
+        "word": "働いています",
+        "count": 22775,
         "cat": "econ",
         "trend": "down",
         "rank": 8,
-        "originalEng": "jet",
-        "quality": "meaningful"
+        "originalEng": "working",
+        "quality": "ambiguous"
       },
       {
-        "word": "王族",
-        "count": 18297,
+        "word": "閉店しました",
+        "count": 19578,
         "cat": "geo",
         "trend": "up",
         "rank": 9,
-        "originalEng": "royals",
+        "originalEng": "closed",
         "quality": "meaningful"
       },
       {
-        "word": "ベイ",
-        "count": 15817,
-        "cat": "tech",
+        "word": "検索",
+        "count": 15691,
+        "cat": "geo",
         "trend": "up",
         "rank": 10,
-        "originalEng": "bay",
-        "quality": "meaningful"
-      },
-      {
-        "word": "青",
-        "count": 10277,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 11,
-        "originalEng": "blue",
+        "originalEng": "search",
         "quality": "meaningful"
       },
       {
         "word": "チーター",
-        "count": 7912,
+        "count": 10826,
         "cat": "tech",
         "trend": "up",
-        "rank": 12,
+        "rank": 11,
         "originalEng": "cheetah",
         "quality": "meaningful"
       },
       {
-        "word": "時間",
-        "count": 2840,
+        "word": "爆撃機",
+        "count": 7909,
         "cat": "social",
         "trend": "down",
+        "rank": 12,
+        "originalEng": "bombardier",
+        "quality": "meaningful"
+      },
+      {
+        "word": "販売",
+        "count": 3911,
+        "cat": "geo",
+        "trend": "up",
         "rank": 13,
+        "originalEng": "sales",
+        "quality": "meaningful"
+      },
+      {
+        "word": "価格",
+        "count": -148,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 14,
+        "originalEng": "trump",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ソーシャル",
+        "count": -5298,
+        "cat": "social",
+        "trend": "down",
+        "rank": 15,
+        "originalEng": "social",
+        "quality": "meaningful"
+      },
+      {
+        "word": "メディア",
+        "count": -8699,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 16,
+        "originalEng": "media",
+        "quality": "meaningful"
+      },
+      {
+        "word": "時間",
+        "count": -12201,
+        "cat": "social",
+        "trend": "down",
+        "rank": 17,
         "originalEng": "hours",
         "quality": "meaningful"
       },
       {
         "word": "ティック",
-        "count": -1777,
+        "count": -17092,
         "cat": "econ",
         "trend": "down",
-        "rank": 14,
+        "rank": 18,
         "originalEng": "tick",
         "quality": "meaningful"
       },
       {
-        "word": "反関税",
-        "count": -5610,
-        "cat": "social",
+        "word": "カナダ",
+        "count": -21210,
+        "cat": "econ",
         "trend": "down",
-        "rank": 15,
-        "originalEng": "countertariffs",
+        "rank": 19,
+        "originalEng": "canadas",
         "quality": "meaningful"
       },
       {
         "word": "反対",
-        "count": -8156,
+        "count": -24084,
         "cat": "social",
         "trend": "down",
-        "rank": 16,
+        "rank": 20,
         "originalEng": "against",
         "quality": "ambiguous"
       },
       {
         "word": "午後",
-        "count": -13446,
+        "count": -29218,
         "cat": "tech",
         "trend": "up",
-        "rank": 17,
+        "rank": 21,
         "originalEng": "pmo",
         "quality": "meaningful"
       },
       {
         "word": "話す",
-        "count": -16258,
+        "count": -33957,
         "cat": "social",
         "trend": "down",
-        "rank": 18,
+        "rank": 22,
         "originalEng": "talks",
         "quality": "meaningful"
       },
       {
         "word": "予定されています",
-        "count": -21124,
+        "count": -36034,
         "cat": "social",
         "trend": "down",
-        "rank": 19,
+        "rank": 23,
         "originalEng": "scheduled",
         "quality": "meaningful"
       },
       {
-        "word": "チーム",
-        "count": -24231,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 20,
-        "originalEng": "germanys",
-        "quality": "meaningful"
-      },
-      {
-        "word": "メルツ",
-        "count": -29918,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 21,
-        "originalEng": "merz",
-        "quality": "meaningful"
-      },
-      {
-        "word": "拒否します",
-        "count": -33076,
-        "cat": "social",
-        "trend": "down",
-        "rank": 22,
-        "originalEng": "refuses",
-        "quality": "meaningful"
-      },
-      {
-        "word": "を呼び出しますパーティー",
-        "count": -36231,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 23,
-        "originalEng": "work",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "ドイツ",
-        "count": -41434,
+        "word": "メキシコ",
+        "count": -40701,
         "cat": "social",
         "trend": "down",
         "rank": 24,
-        "originalEng": "afd",
+        "originalEng": "mexico",
         "quality": "meaningful"
       },
       {
-        "word": "極右",
-        "count": -45770,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 25,
-        "originalEng": "farright",
-        "quality": "meaningful"
-      },
-      {
-        "word": "パーティー",
-        "count": -48149,
-        "cat": "social",
-        "trend": "down",
-        "rank": 26,
-        "originalEng": "partys",
-        "quality": "meaningful"
-      },
-      {
-        "word": "地滑り",
-        "count": -52888,
+        "word": "知事",
+        "count": -44842,
         "cat": "tech",
         "trend": "up",
-        "rank": 27,
-        "originalEng": "landslide",
+        "rank": 25,
+        "originalEng": "governor",
         "quality": "meaningful"
       },
       {
-        "word": "勝利",
-        "count": -56634,
+        "word": "裂ける",
+        "count": -48337,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 26,
+        "originalEng": "rips",
+        "quality": "meaningful"
+      },
+      {
+        "word": "切り札",
+        "count": -52739,
+        "cat": "social",
+        "trend": "down",
+        "rank": 27,
+        "originalEng": "trumps",
+        "quality": "meaningful"
+      },
+      {
+        "word": "アメリカ",
+        "count": -57122,
         "cat": "tech",
         "trend": "up",
         "rank": 28,
-        "originalEng": "victory",
+        "originalEng": "america",
         "quality": "meaningful"
       },
       {
-        "word": "状態",
-        "count": -60079,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 29,
-        "originalEng": "state",
-        "quality": "meaningful"
-      },
-      {
-        "word": "選挙",
-        "count": -65318,
+        "word": "名前",
+        "count": -61712,
         "cat": "social",
         "trend": "down",
+        "rank": 29,
+        "originalEng": "name",
+        "quality": "meaningful"
+      },
+      {
+        "word": "違います",
+        "count": -64454,
+        "cat": "geo",
+        "trend": "up",
         "rank": 30,
-        "originalEng": "election",
+        "originalEng": "isnt",
         "quality": "meaningful"
       }
     ]
@@ -2775,273 +2775,273 @@
     "score": 80,
     "trends": [
       {
-        "word": "発表された",
-        "count": 51485,
-        "cat": "social",
-        "trend": "down",
-        "rank": 1,
-        "originalEng": "announced",
-        "quality": "meaningful"
-      },
-      {
-        "word": "モスクワ",
-        "count": 46567,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 2,
-        "originalEng": "moscow",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ロシア語",
-        "count": 42619,
-        "cat": "social",
-        "trend": "down",
-        "rank": 3,
-        "originalEng": "russian",
-        "quality": "meaningful"
-      },
-      {
-        "word": "一般",
-        "count": 39342,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 4,
-        "originalEng": "general",
-        "quality": "meaningful"
-      },
-      {
-        "word": "殺されました",
-        "count": 34428,
-        "cat": "social",
-        "trend": "down",
-        "rank": 5,
-        "originalEng": "killed",
-        "quality": "meaningful"
-      },
-      {
-        "word": "学んだ",
-        "count": 30039,
-        "cat": "social",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "learned",
-        "quality": "meaningful"
-      },
-      {
         "word": "ロシア",
-        "count": 27424,
+        "count": 50776,
         "cat": "econ",
         "trend": "down",
-        "rank": 7,
+        "rank": 1,
         "originalEng": "russia",
         "quality": "meaningful"
       },
       {
-        "word": "リスク",
-        "count": 22692,
+        "word": "ロシア語",
+        "count": 46680,
         "cat": "social",
         "trend": "down",
-        "rank": 8,
-        "originalEng": "risk",
+        "rank": 2,
+        "originalEng": "russian",
         "quality": "meaningful"
       },
       {
-        "word": "保存",
-        "count": 18277,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 9,
-        "originalEng": "save",
-        "quality": "meaningful"
-      },
-      {
-        "word": "明らかになった",
-        "count": 14199,
+        "word": "スパルタク",
+        "count": 42306,
         "cat": "geo",
         "trend": "up",
-        "rank": 10,
-        "originalEng": "revealed",
-        "quality": "meaningful"
-      },
-      {
-        "word": "広い",
-        "count": 10557,
-        "cat": "social",
-        "trend": "down",
-        "rank": 11,
-        "originalEng": "wide",
-        "quality": "meaningful"
-      },
-      {
-        "word": "9月",
-        "count": 6377,
-        "cat": "social",
-        "trend": "down",
-        "rank": 12,
-        "originalEng": "september",
-        "quality": "meaningful"
-      },
-      {
-        "word": "外国人",
-        "count": 2977,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "foreign",
+        "rank": 3,
+        "originalEng": "spartak",
         "quality": "meaningful"
       },
       {
         "word": "奉仕",
-        "count": -42,
+        "count": 38593,
         "cat": "econ",
         "trend": "down",
-        "rank": 14,
+        "rank": 4,
         "originalEng": "ministry",
         "quality": "meaningful"
       },
       {
-        "word": "サスペンション",
-        "count": -5027,
+        "word": "発表されました",
+        "count": 34049,
+        "cat": "social",
+        "trend": "down",
+        "rank": 5,
+        "originalEng": "announced",
+        "quality": "meaningful"
+      },
+      {
+        "word": "一般",
+        "count": 30721,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 6,
+        "originalEng": "general",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ボード",
+        "count": 26703,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 7,
+        "originalEng": "board",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ディレクター",
+        "count": 23677,
         "cat": "econ",
         "trend": "down",
+        "rank": 8,
+        "originalEng": "directors",
+        "quality": "meaningful"
+      },
+      {
+        "word": "攻撃",
+        "count": 18905,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 9,
+        "originalEng": "attack",
+        "quality": "meaningful"
+      },
+      {
+        "word": "リスク",
+        "count": 14348,
+        "cat": "social",
+        "trend": "down",
+        "rank": 10,
+        "originalEng": "risk",
+        "quality": "meaningful"
+      },
+      {
+        "word": "生産",
+        "count": 11340,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 11,
+        "originalEng": "production",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ネットワーク",
+        "count": 7582,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 12,
+        "originalEng": "network",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ディスク",
+        "count": 3441,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 13,
+        "originalEng": "disk",
+        "quality": "meaningful"
+      },
+      {
+        "word": "明らかになった",
+        "count": -1108,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 14,
+        "originalEng": "revealed",
+        "quality": "meaningful"
+      },
+      {
+        "word": "コンサート",
+        "count": -4557,
+        "cat": "tech",
+        "trend": "up",
         "rank": 15,
+        "originalEng": "concert",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ビシュケク",
+        "count": -9341,
+        "cat": "social",
+        "trend": "down",
+        "rank": 16,
+        "originalEng": "bishkek",
+        "quality": "meaningful"
+      },
+      {
+        "word": "違う",
+        "count": -13633,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 17,
+        "originalEng": "different",
+        "quality": "meaningful"
+      },
+      {
+        "word": "外国人",
+        "count": -17801,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 18,
+        "originalEng": "foreign",
+        "quality": "meaningful"
+      },
+      {
+        "word": "サスペンション",
+        "count": -21311,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 19,
         "originalEng": "suspension",
         "quality": "meaningful"
       },
       {
-        "word": "を呼び出しますパーティー",
-        "count": -8752,
+        "word": "仕事",
+        "count": -24315,
         "cat": "econ",
         "trend": "down",
-        "rank": 16,
+        "rank": 20,
         "originalEng": "work",
         "quality": "ambiguous"
       },
       {
-        "word": "ドイツ語",
-        "count": -13514,
+        "word": "勝ちました",
+        "count": -28046,
         "cat": "tech",
         "trend": "up",
-        "rank": 17,
+        "rank": 21,
         "originalEng": "german",
         "quality": "meaningful"
       },
       {
         "word": "領事館",
-        "count": -17227,
+        "count": -33990,
         "cat": "tech",
         "trend": "up",
-        "rank": 18,
+        "rank": 22,
         "originalEng": "consulate",
         "quality": "meaningful"
       },
       {
         "word": "サンクトペテルブルク",
-        "count": -21459,
+        "count": -37383,
         "cat": "social",
         "trend": "down",
-        "rank": 19,
+        "rank": 23,
         "originalEng": "petersburg",
         "quality": "meaningful"
       },
       {
-        "word": "パーマ",
-        "count": -25560,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 20,
-        "originalEng": "perm",
-        "quality": "meaningful"
-      },
-      {
-        "word": "敵",
-        "count": -29774,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 21,
-        "originalEng": "enemy",
-        "quality": "meaningful"
-      },
-      {
-        "word": "UAV",
-        "count": -33795,
+        "word": "中尉",
+        "count": -40289,
         "cat": "econ",
         "trend": "down",
-        "rank": 22,
-        "originalEng": "uavs",
-        "quality": "meaningful"
-      },
-      {
-        "word": "ショット",
-        "count": -36402,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 23,
-        "originalEng": "shot",
-        "quality": "meaningful"
-      },
-      {
-        "word": "かかりますダウン",
-        "count": -41064,
-        "cat": "tech",
-        "trend": "up",
         "rank": 24,
-        "originalEng": "down",
+        "originalEng": "lieutenant",
         "quality": "meaningful"
       },
       {
-        "word": "リンゴ",
-        "count": -44544,
-        "cat": "social",
-        "trend": "down",
+        "word": "大佐",
+        "count": -44022,
+        "cat": "tech",
+        "trend": "up",
         "rank": 25,
-        "originalEng": "person",
+        "originalEng": "colonel",
         "quality": "meaningful"
       },
       {
-        "word": "ウィトコフ",
-        "count": -49008,
+        "word": "モスクワ",
+        "count": -49722,
         "cat": "tech",
         "trend": "up",
         "rank": 26,
-        "originalEng": "witkoff",
+        "originalEng": "moscow",
         "quality": "meaningful"
       },
       {
-        "word": "クシュナー",
-        "count": -53048,
+        "word": "地域",
+        "count": -52758,
         "cat": "geo",
         "trend": "up",
         "rank": 27,
-        "originalEng": "kushner",
+        "originalEng": "region",
         "quality": "meaningful"
       },
       {
-        "word": "持ってきました",
-        "count": -57272,
+        "word": "メイン",
+        "count": -56899,
         "cat": "econ",
         "trend": "down",
         "rank": 28,
-        "originalEng": "brought",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "更新されました",
-        "count": -60152,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 29,
-        "originalEng": "updated",
+        "originalEng": "main",
         "quality": "meaningful"
       },
       {
-        "word": "書類",
-        "count": -65226,
-        "cat": "geo",
+        "word": "総局",
+        "count": -61792,
+        "cat": "tech",
         "trend": "up",
+        "rank": 29,
+        "originalEng": "directorate",
+        "quality": "meaningful"
+      },
+      {
+        "word": "内部",
+        "count": -64824,
+        "cat": "econ",
+        "trend": "down",
         "rank": 30,
-        "originalEng": "documents",
+        "originalEng": "internal",
         "quality": "meaningful"
       }
     ]
@@ -3053,7 +3053,7 @@
     "trends": [
       {
         "word": "ホン",
-        "count": 50300,
+        "count": 51139,
         "cat": "geo",
         "trend": "up",
         "rank": 1,
@@ -3062,7 +3062,7 @@
       },
       {
         "word": "コン",
-        "count": 47421,
+        "count": 47399,
         "cat": "econ",
         "trend": "down",
         "rank": 2,
@@ -3071,7 +3071,7 @@
       },
       {
         "word": "中国",
-        "count": 43181,
+        "count": 43878,
         "cat": "social",
         "trend": "down",
         "rank": 3,
@@ -3079,246 +3079,246 @@
         "quality": "meaningful"
       },
       {
-        "word": "iphone",
-        "count": 39939,
-        "cat": "social",
-        "trend": "down",
-        "rank": 4,
-        "originalEng": "iphone",
-        "quality": "meaningful"
-      },
-      {
         "word": "計画",
-        "count": 35237,
+        "count": 38470,
         "cat": "econ",
         "trend": "down",
-        "rank": 5,
+        "rank": 4,
         "originalEng": "plan",
         "quality": "meaningful"
       },
       {
-        "word": "カメラ",
-        "count": 30461,
-        "cat": "social",
-        "trend": "down",
-        "rank": 6,
-        "originalEng": "camera",
-        "quality": "meaningful"
-      },
-      {
-        "word": "場合",
-        "count": 26202,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 7,
-        "originalEng": "case",
-        "quality": "ambiguous"
-      },
-      {
-        "word": "特別",
-        "count": 22426,
-        "cat": "social",
-        "trend": "down",
-        "rank": 8,
-        "originalEng": "special",
-        "quality": "meaningful"
-      },
-      {
-        "word": "露出",
-        "count": 19587,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 9,
-        "originalEng": "exposed",
-        "quality": "meaningful"
-      },
-      {
-        "word": "歳",
-        "count": 14264,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 10,
-        "originalEng": "yearold",
-        "quality": "meaningful"
-      },
-      {
-        "word": "乗客",
-        "count": 10271,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 11,
-        "originalEng": "passengers",
-        "quality": "meaningful"
-      },
-      {
-        "word": "プライベート",
-        "count": 6261,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 12,
-        "originalEng": "private",
-        "quality": "meaningful"
-      },
-      {
-        "word": "車",
-        "count": 2772,
-        "cat": "geo",
-        "trend": "up",
-        "rank": 13,
-        "originalEng": "car",
-        "quality": "meaningful"
-      },
-      {
-        "word": "チェン",
-        "count": -182,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 14,
-        "originalEng": "chen",
-        "quality": "meaningful"
-      },
-      {
         "word": "パーティー",
-        "count": -5482,
+        "count": 34733,
         "cat": "tech",
         "trend": "up",
-        "rank": 15,
+        "rank": 5,
         "originalEng": "party",
         "quality": "meaningful"
       },
       {
-        "word": "勝ちました",
-        "count": -9809,
-        "cat": "tech",
-        "trend": "up",
-        "rank": 16,
-        "originalEng": "won",
+        "word": "土砂崩れ",
+        "count": 31462,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 6,
+        "originalEng": "mudslide",
+        "quality": "meaningful"
+      },
+      {
+        "word": "メジャー",
+        "count": 26303,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 7,
+        "originalEng": "major",
         "quality": "ambiguous"
       },
       {
-        "word": "サポート",
-        "count": -13880,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 17,
-        "originalEng": "support",
+        "word": "台湾",
+        "count": 23076,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 8,
+        "originalEng": "taiwan",
         "quality": "meaningful"
       },
       {
         "word": "不動産",
-        "count": -17547,
+        "count": 19285,
         "cat": "econ",
         "trend": "down",
-        "rank": 18,
+        "rank": 9,
         "originalEng": "estates",
         "quality": "meaningful"
       },
       {
-        "word": "テディ",
-        "count": -21190,
+        "word": "単位",
+        "count": 14374,
+        "cat": "social",
+        "trend": "down",
+        "rank": 10,
+        "originalEng": "units",
+        "quality": "meaningful"
+      },
+      {
+        "word": "アジア人",
+        "count": 10077,
         "cat": "geo",
         "trend": "up",
-        "rank": 19,
+        "rank": 11,
+        "originalEng": "asian",
+        "quality": "meaningful"
+      },
+      {
+        "word": "明らかになった",
+        "count": 6899,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 12,
+        "originalEng": "revealed",
+        "quality": "meaningful"
+      },
+      {
+        "word": "テディ",
+        "count": 3187,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 13,
         "originalEng": "teddy",
         "quality": "meaningful"
       },
       {
         "word": "クマ",
-        "count": -24722,
+        "count": -555,
         "cat": "geo",
         "trend": "up",
-        "rank": 20,
+        "rank": 14,
         "originalEng": "bear",
         "quality": "meaningful"
       },
       {
-        "word": "歌手",
-        "count": -29331,
-        "cat": "geo",
+        "word": "痩せた",
+        "count": -5048,
+        "cat": "tech",
         "trend": "up",
-        "rank": 21,
-        "originalEng": "singer",
+        "rank": 15,
+        "originalEng": "lean",
         "quality": "meaningful"
       },
       {
+        "word": "人生",
+        "count": -8939,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 16,
+        "originalEng": "life",
+        "quality": "ambiguous"
+      },
+      {
         "word": "チョン",
-        "count": -33067,
+        "count": -13723,
         "cat": "econ",
         "trend": "down",
-        "rank": 22,
+        "rank": 17,
         "originalEng": "cheungs",
         "quality": "meaningful"
       },
       {
-        "word": "ゲーム",
-        "count": -37407,
-        "cat": "econ",
-        "trend": "down",
-        "rank": 23,
-        "originalEng": "games",
-        "quality": "meaningful"
-      },
-      {
-        "word": "使者",
-        "count": -40982,
-        "cat": "social",
-        "trend": "down",
-        "rank": 24,
-        "originalEng": "envoy",
-        "quality": "meaningful"
-      },
-      {
-        "word": "会った",
-        "count": -45008,
+        "word": "チョンマオ",
+        "count": -16809,
         "cat": "geo",
         "trend": "up",
-        "rank": 25,
-        "originalEng": "met",
+        "rank": 18,
+        "originalEng": "chongmao",
         "quality": "meaningful"
       },
       {
-        "word": "ロシア語",
-        "count": -48800,
+        "word": "役人",
+        "count": -21163,
+        "cat": "geo",
+        "trend": "up",
+        "rank": 19,
+        "originalEng": "officials",
+        "quality": "meaningful"
+      },
+      {
+        "word": "ワクチン接種済み",
+        "count": -24303,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 20,
+        "originalEng": "vaccinated",
+        "quality": "meaningful"
+      },
+      {
+        "word": "反対",
+        "count": -28977,
         "cat": "social",
         "trend": "down",
-        "rank": 26,
-        "originalEng": "russian",
+        "rank": 21,
+        "originalEng": "against",
+        "quality": "ambiguous"
+      },
+      {
+        "word": "季節",
+        "count": -33283,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 22,
+        "originalEng": "seasonal",
         "quality": "meaningful"
       },
       {
-        "word": "ウクライナ語",
-        "count": -53034,
+        "word": "インフルエンザ",
+        "count": -37477,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 23,
+        "originalEng": "influenza",
+        "quality": "meaningful"
+      },
+      {
+        "word": "外国人",
+        "count": -40834,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 24,
+        "originalEng": "foreigners",
+        "quality": "meaningful"
+      },
+      {
+        "word": "欠落しています",
+        "count": -45026,
+        "cat": "tech",
+        "trend": "up",
+        "rank": 25,
+        "originalEng": "missing",
+        "quality": "meaningful"
+      },
+      {
+        "word": "吉龍",
+        "count": -48251,
+        "cat": "econ",
+        "trend": "down",
+        "rank": 26,
+        "originalEng": "jilong",
+        "quality": "meaningful"
+      },
+      {
+        "word": "チベット",
+        "count": -53829,
         "cat": "geo",
         "trend": "up",
         "rank": 27,
-        "originalEng": "ukrainian",
+        "originalEng": "tibet",
         "quality": "meaningful"
       },
       {
-        "word": "大統領",
-        "count": -56038,
+        "word": "すぐに",
+        "count": -57013,
         "cat": "social",
         "trend": "down",
         "rank": 28,
-        "originalEng": "presidents",
+        "originalEng": "promptly",
         "quality": "meaningful"
       },
       {
-        "word": "宣伝する",
-        "count": -61020,
+        "word": "通知されました",
+        "count": -61739,
         "cat": "geo",
         "trend": "up",
         "rank": 29,
-        "originalEng": "promote",
+        "originalEng": "notified",
         "quality": "meaningful"
       },
       {
-        "word": "戦争終結",
-        "count": -64290,
-        "cat": "tech",
+        "word": "大使館",
+        "count": -64334,
+        "cat": "geo",
         "trend": "up",
         "rank": 30,
-        "originalEng": "endofwar",
+        "originalEng": "embassies",
         "quality": "meaningful"
       }
     ]
